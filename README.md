@@ -6,9 +6,9 @@ Programa de medios interactivos
 
 Julio - Noviembre 20222
 
-* Sergio Mora-Díaz
-* Aarón Montoya-Moraga
-* Christian Oyarzún
+* Sergio Mora-Díaz - https://www.sergiomoradiaz.com/
+* Aarón Montoya-Moraga - https://montoyamoraga.io/
+* Christian Oyarzún - https://error404.cl/
 
 Más información en https://www.sinestesia.cc/programamediosinteractivos
 
