@@ -16,7 +16,7 @@ Más información en https://www.sinestesia.cc/programamediosinteractivos
 
 Hay una carpeta por cada uno de los 5 módulos:
 
-* [1-intro-medios-interactivos/]()
+* [1-intro-medios-interactivos/](1-intro-medios-interactivos/)
 * [2-objetos-electronicos/]
 * [3-sonido-digital/]
 * [4-proyeccion-luz-videomapping/]
