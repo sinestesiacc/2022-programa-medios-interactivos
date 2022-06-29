@@ -6,8 +6,8 @@ jueves 14 julio 2022
 
 ## programa y organización (15 min)
 
-organización: https://github.com/sinestesiacc
-programa: https://github.com/sinestesiacc/2022-programa-medios-interactivos/
+* organización: https://github.com/sinestesiacc
+* programa: https://github.com/sinestesiacc/2022-programa-medios-interactivos/
 
 ## presentación estudiantes (30 min)
 
@@ -50,11 +50,17 @@ organizaciones:
 
 actividad: escribamos los primeros 21 números, empezando desde 0, usando los sistemas decimal, binario y hexadecimal.
 
+## convenciones en programación (15 min)
+
+* en programación, contamos desde 0. por ejemplo si hay 3 elementos, son 0, 1, 2.
+
+* para escribir nombres compuestos por mas de una palabra, usaremos notación camello, donde escribimos todas las palabras juntas sin espacios, la primera es todo con minúsculas, y después cada palabra adicional empieza con mayúscula, por ejemplo estaPalabraEstaEscritaEnNotacionCamello.
+
 ## programación en Processing (15 min)
 
 descargar Processing desde https://processing.org/
 
-hagamos nuestro primer software
+hagamos nuestro primer bosquejo
 
 ```processing
 void setup() {
@@ -65,3 +71,28 @@ void draw() {
   ellipse(250, 250, 100, 100);
 }
 ```
+
+revisemos qué significa cada una de estas líneas de código, palabras clave, y estructuras.
+
+estructuras:
+
+* función: es una colección de instrucciones de código, que tienen la siguiente sintaxis:
+
+```Processing
+tipoRetorno nombre(arg0, arg1, ...) {
+  // linea
+  // otra linea
+  // etc
+}
+```
+
+donde tipoRetorno nos indica el tipo de dato que la función emite tras finalizar, puede ser número, palabra, o nada "void".
+
+palabras:
+
+* void: significa vacío, indica que estas funciones tras funcionar, no emiten ningún resultado.
+
+funciones de Processing:
+
+* size(ancho, alto): crea una ventana con el ancho y alto determinado en pixeles.
+* ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles.
