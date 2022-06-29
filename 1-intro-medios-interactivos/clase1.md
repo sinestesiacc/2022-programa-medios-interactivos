@@ -56,6 +56,8 @@ actividad: escribamos los primeros 21 números, empezando desde 0, usando los si
 
 * para escribir nombres compuestos por mas de una palabra, usaremos notación camello, donde escribimos todas las palabras juntas sin espacios, la primera es todo con minúsculas, y después cada palabra adicional empieza con mayúscula, por ejemplo estaPalabraEstaEscritaEnNotacionCamello.
 
+* generalmente los espacios entre palabras importan, pero no importa cuánto hay, el computador los omite, pero son muy importantes para que nuestro código sea legible.
+
 ## programación en Processing (15 min)
 
 descargar Processing desde https://processing.org/
