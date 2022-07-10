@@ -4,6 +4,12 @@
 
 jueves 21 julio 2022
 
+hoy aprenderemos:
+
+* bucles: for()
+* condiciones: if, else
+
+
 ## estrategias de dibujo programático
 
 dibujar con dispositivos HID (teclado, ratón) como cursor
