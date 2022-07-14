@@ -153,17 +153,19 @@ donde:
 - transparencia: 0 es invisible, 255 es sólido.
 - RGB: 0 es nada de ese color, 255 es todo de ese color.
 
-## figuras geométricas: point(), line(), ellipse() y rect() (30 min)
+## puntos y líneas: point() y line() (15 min)
 
 - point(posX, posY): crea un punto en la posición (posX, posY).
 
 - line(posX1, posY1, posX2, posY2): crea una línea entre los puntos (posX1, posY1) y pos(X2, Y2).
 
-- rect(posX, posY, ancho, alto): crea un rectángulo donde su
+## figuras geométricas: ellipse() y rect() (15 min)
 
-- ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles.
+- rect(posX, posY, ancho, alto): crea un rectángulo en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles. por defecto, la posición define la esquina superior izquierda.
 
-## escala de grises, color RGB y transparencia alphas (30 min)
+- ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles. por defecto, la posición define el centro de la elipse.
+
+## escala de grises, color RGB y transparencia alphas (15 min)
 
 Processing entiende color como un valor de 8-bits, valores entre 0 y 255.
 
@@ -178,7 +180,7 @@ dependiendo de cuántos números usamos para describir el color, tendremos disti
 - 3 números, canales RGB por rojo, verde, azul
 - 4 números, RGBA, RGB + transparencia alpha
 
-si usamos dos números, se entienden como escala de grises y transparencia alpha
+## condicionales if / else (15 min)
 
 ## biliografía:
 
