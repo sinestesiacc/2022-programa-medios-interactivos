@@ -11,7 +11,21 @@ hoy aprenderemos:
 - osciladores
 - filtros
 
-## bibliotecas y lenguajes de sonido digital (30 min)
+## bibliotecas y lenguajes de sonido digital (15 min)
+
+- Bela
+- ChucK
+- Csound
+- FoxDot
+- Max
+- Mozzi
+- p5.js sound
+- Processing Sound
+- Pure Data
+- Sonic Pi
+- SuperCollider
+- Teensy
+- Tidalcycles
 
 ## biblioteca Sound de Processing (15 min)
 
