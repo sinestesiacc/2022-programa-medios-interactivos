@@ -16,6 +16,7 @@ hoy aprenderemos:
 
 - organización: https://github.com/sinestesiacc
 - programa: https://github.com/sinestesiacc/2022-programa-medios-interactivos/
+- berlin code of conduct: https://berlincodeofconduct.org/es/
 
 ## presentación estudiantes (15 min)
 
