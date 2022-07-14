@@ -153,34 +153,47 @@ donde:
 - transparencia: 0 es invisible, 255 es sólido.
 - RGB: 0 es nada de ese color, 255 es todo de ese color.
 
+estos valores ocurren porque Processing entiende color como un valor de 8-bits, valores entre 0 y 255. esta escala se puede cambiar con la función colorMode().
+
 ## puntos y líneas: point() y line() (15 min)
 
 - point(posX, posY): crea un punto en la posición (posX, posY).
 
 - line(posX1, posY1, posX2, posY2): crea una línea entre los puntos (posX1, posY1) y pos(X2, Y2).
 
-## figuras geométricas: ellipse() y rect() (15 min)
+## figuras geométricas básicas: ellipse() y rect() (15 min)
 
 - rect(posX, posY, ancho, alto): crea un rectángulo en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles. por defecto, la posición define la esquina superior izquierda.
 
 - ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles. por defecto, la posición define el centro de la elipse.
 
-## escala de grises, color RGB y transparencia alphas (15 min)
+## bordes y rellenos de figuras: stroke() y fill()
 
-Processing entiende color como un valor de 8-bits, valores entre 0 y 255.
+la función stroke(color) permite elegir los bordes de los trazos de las figuras. si no quieres tener stroke, puedes usar la función noStroke().
 
-la función stroke() permite colorear los bordes de los trazos de las figuras
+la función fill(color) permite colorear los rellenos de las figuras. si no quieres tener un relleno, puedes usar la función noFill().
 
-la función fill() permite colorear los rellenos de las figuras
-
-dependiendo de cuántos números usamos para describir el color, tendremos distintos resultados:
-
-- 1 número: escala de grises, donde 0 es negro y 255 es blanco
-- 2 números, escala de grises y transparencia alpha, donde alpha=0 es transparente, y alpha=sólido
-- 3 números, canales RGB por rojo, verde, azul
-- 4 números, RGBA, RGB + transparencia alpha
+los puntos y líneas están en 2D y no tienen relleno, solamente borde, por lo que usar la función noStroke() los hace invisibles, y la función noFill() no tiene efecto.
 
 ## condicionales if / else (15 min)
+
+podemos hacer que nuestro código tenga bifurcaciones para distintos comportamientos, al usar condicionales, que en código tienen esta sintaxis.
+
+```processing
+if (condicion0) {
+// este código corre si la condicion0 es verdadera
+}
+else if (condicion1) {
+// este código corre si la condición0 es falsa, y ademas la condicion1 es verdadera
+}
+else {
+// este código corre si la condicion0 y la condicion1 son falsas
+}
+```
+
+siempre necesitamos un "if" con una condición que si es cierta, hace que el código dentro corra. si queremos comparar más condiciones, podemos usar condiciones adicionales en cascada con "else if", tantas como queramos.
+
+si queremos tener un código que solamente corra si todas las condiciones son falsas, al final escribimos un "else".
 
 ## biliografía:
 
