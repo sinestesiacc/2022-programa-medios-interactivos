@@ -52,7 +52,7 @@ organizaciones:
 
 un número como 123,456 en decimal
 
-lo descomponemos como 1*$10^{2}$ + 2*$10^{1}$ + 3*$10^{0}$ + 4*$10^{-1}$ + 5*$10^{-2}$ + 6*$g10^{-3}$
+lo descomponemos como 1*$10^{2}$ + 2*$10^{1}$ + 3*$10^{0}$ + 4*$10^{-1}$ + 5*$10^{-2}$ + 6*$10^{-3}$
 
 | base 10 | base 2 | base 16 |
 | ------- | ------ | ------- |
@@ -85,9 +85,12 @@ lo descomponemos como 1*$10^{2}$ + 2*$10^{1}$ + 3*$10^{0}$ + 4*$10^{-1}$ + 5*$10
 
 - en programación, contamos desde 0, por ejemplo si hay 3 elementos, son 0, 1, 2.
 
-- para escribir nombres compuestos por mas de una palabra, usaremos notación camello, donde escribimos todas las palabras juntas sin espacios, la primera es todo con minúsculas, y después cada palabra adicional empieza con mayúscula, por ejemplo estaPalabraEstaEscritaEnNotacionCamello.
+- en este curso no usaremos espacios para nombres de carpetas, archivos o variables, en vez de eso, usaremos distintas estrategias:
 
-- generalmente los espacios entre palabras importan, pero no importa cuánto espacio hay, el computador los omite, pero son muy importantes para que nuestro código sea legible.
+  - usaremos guiones "-", guiones bajos "\_" para nuestros archivos y carpetas.
+  - las variables de nuestro código estarán escritas en notación camello: donde escribimos todas las palabras juntas sin espacios, la primera es todo con minúsculas, y después cada palabra adicional empieza con mayúscula, por ejemplo estaPalabraEstaEscritaEnNotacionCamello.
+
+- generalmente los espacios entre palabras importan, pero no importa cuánto espacio hay, el computador los omite, pero son muy importantes para que nuestro código sea legible y esté formateado de una manera legible.
 
 ## descargar Processing y nuestro primer bosquejo
 
