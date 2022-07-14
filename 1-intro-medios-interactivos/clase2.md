@@ -1,6 +1,6 @@
 # clase2
 
-1.2 Dibujo programático
+1.2 dibujo programático
 
 jueves 21 julio 2022
 
