@@ -203,6 +203,7 @@ si queremos tener un código que solamente corra si todas las condiciones son fa
   - https://processing.org/tutorials/
   - https://processing.org/examples/
   - https://processing.org/books/
+- https://www.youtube.com/c/TheCodingTrain
 - Visible Languages Workshop https://act.mit.edu/special-collections/vlw-archive/
 - aesthetics + computation group https://acg.media.mit.edu/
 - physical langauge workshop https://plw.media.mit.edu/
