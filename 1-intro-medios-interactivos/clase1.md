@@ -140,13 +140,28 @@ a diferencia de setup() y draw(), size(ancho, alto) necesita dos argumentos num�
 
 - size(ancho, alto): crea una ventana con el ancho y alto determinado en pixeles.
 
-para pintar el lienzo de un color, usaremos la función background(color), donde color podrá tomar distintas formas.
+para pintar el lienzo de un color, usaremos la función background(color), donde color podrá tomar distintas formas:
 
-## color en Processing (15 min)
+- si usamos 1 número, será interpretado como escala de grises.
+- si usamos 2 números, será interpretado como escala de grises y transparencia.
+- si usamos 3 números, serán interpretados como canales RGB (rojo, verde, azul).
+- si usamos 4 números, serán interpretados como canales RGB y transparencia.
 
-- ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles.
+donde:
+
+- en escala de grises: 0 es negro, 255 es blanco.
+- transparencia: 0 es invisible, 255 es sólido.
+- RGB: 0 es nada de ese color, 255 es todo de ese color.
 
 ## figuras geométricas: point(), line(), ellipse() y rect() (30 min)
+
+- point(posX, posY): crea un punto en la posición (posX, posY).
+
+- line(posX1, posY1, posX2, posY2): crea una línea entre los puntos (posX1, posY1) y pos(X2, Y2).
+
+- rect(posX, posY, ancho, alto): crea un rectángulo donde su
+
+- ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles.
 
 ## escala de grises, color RGB y transparencia alphas (30 min)
 

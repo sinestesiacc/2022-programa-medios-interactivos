@@ -1,3 +1,6 @@
+
+
+
 void setup() {
   // formato 16:9
   // dimensiones medidas en pixeles
