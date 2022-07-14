@@ -19,4 +19,8 @@ para empezar, estudiaremos la envolvente más clásica de sintetizadores, llamad
 
 en el contexto de un sintetizador podemos hacer que el accionar de una tecla, elija dos cosas: la frecuencia base del sonido, y también el momento en que iniciamos esta envolvente.
 
-así, podemos hacer que nuestro oscilador tenga un sonido distinto, dependiendo de los parámetros.
+así, podemos hacer que nuestro oscilador tenga un sonido distinto, dependiendo de los parámetros de esta envolvente, y de lo que estamos controlando con esta envolvente.
+
+usaremos como arquitectura de síntesis, un teclado que controla la frecuencia del oscilador y que activa las envolventes.
+
+el oscilador entra a un filtro, cuya frecuencia de corte está controlada por una envolvente AR y la salida del filtro está conectada a un VCA, cuya amplitud está controlada por una envolvente ADSR.
