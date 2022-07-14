@@ -1,4 +1,4 @@
-// ej_03_elipse_rectangulo
+// ej_04_bordes_rellenos
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
@@ -10,42 +10,36 @@ void setup() {
   // lienzo ancho 630 y 360 alto, en formato 16:9
   size(640, 360);
 
-  // opciones de elipse
-  // este es el modo por defecto
-  // la posicion define el centro
-  ellipseMode(CENTER);
-  // en este modo, la posicion es la esquina superior iquierda
-  // ellipseMode(CORNER);
-
-  // opciones de rectangulo
-  // este es el modo por defecto
-  // la posicion define la esquina superior izquierda
-  rectMode(CORNER);
-  // en este modo, la posicion define el centro
-  // rectMode(CENTER);
+  // sin trazo de borde
+  noStroke();
 }
 
 void draw() {
 
-  // color blanco de fondo
-  background(255);
-
-  // color rojo de relleno
-  fill(255, 0, 0);
-
-  // sin trazo de borde
-  noStroke();
-
   // variable a ser usada para tamano figuras
-  int tamano = 100;
+  int tamano = 150;
 
   // si el raton esta presionado
   if (mousePressed) {
+
+    // color blanco de fondo
+    background(255);
+
+    // color rojo de relleno para elipse
+    fill(255, 0, 0);
+
     // dibujar una elipse en la posicion del raton
     ellipse(mouseX, mouseY, tamano, tamano);
   }
   // si el raton no esta presionado
   else {
+
+    // color negro de fondo
+    background(0);
+    
+    // color amarillo de relleno para rectangulo
+    fill(255, 255, 0);
+    
     // dibujar un rectangulo en la posicion del raton
     rect(mouseX, mouseY, tamano, tamano);
   }
