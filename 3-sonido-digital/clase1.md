@@ -28,3 +28,21 @@ para comprobar que instalaste bien la biblioteca, abramos un ejemplo.
 para eso, vamos en el menú a File -> Examples, y en la ventana con carpetas que aparece, ir a Libraries -> Sound -> Oscillators -> SineWave, y corremos ese ejemplo, el que debería hacer un sonido de onda sinusoidal, cuya frecuencia y amplitud son controladas por la posición del ratón.
 
 la referencia de la biblioteca, con las variables y funciones que nos brinda, está documentada en https://processing.org/reference/libraries/sound/index.html
+
+## osciladores
+
+en esta clase consideraremos a los osciladores como los componentes básicos de la música digital.
+
+las ondas clásicas que podemos hacer con esta biblioteca son sinusoidales, cuadradas, pulsos, diente de sierra y triangulares.
+
+## sampleo y buffers
+
+con esta biblioteca también podemos leer, cargar, escribir, modificar y reproducir archivos de audio.
+
+un buffer es un espacio en memoria, como una variable, donde alojamos nuestro audio.
+
+## filtros
+
+los filtros nos permiten cambiar el contenido espectral del sonido.
+
+con Processing Sound podemos crear filtros pasabajos, pasaaltos y pasabanda.
