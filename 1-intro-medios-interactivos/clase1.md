@@ -52,7 +52,7 @@ organizaciones:
 
 un número como 123,456 en decimal
 
-lo descomponemos como 1*10^2 + 2*10^1 + 3\*10^0 + 4\*10^(-1) + 5\*10^(-2) + 6\*10^(-3)
+lo descomponemos como 1\*$10^{2}$ + 2\*10^1 + 3\*10^0 + 4\*10^(-1) + 5\*10^(-2) + 6\*10^(-3)
 
 | base 10 | base 2 | base 16 |
 | ------- | ------ | ------- |
