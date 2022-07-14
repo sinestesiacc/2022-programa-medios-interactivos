@@ -92,7 +92,7 @@ lo descomponemos como 1*$10^{2}$ + 2*$10^{1}$ + 3*$10^{0}$ + 4*$10^{-1}$ + 5*$10
 
 - generalmente los espacios entre palabras importan, pero no importa cuánto espacio hay, el computador los omite, pero son muy importantes para que nuestro código sea legible y esté formateado de una manera legible.
 
-## descargar Processing y nuestro primer bosquejo
+## descargar Processing y nuestro primer bosquejo (15 min)
 
 descargar Processing desde https://processing.org/
 
@@ -112,7 +112,7 @@ void draw() {
 
 ## condiciones iniciales y de refresco con setup() y draw() (15 min)
 
-las funciones más centrales que usaremos en Processing son setup() y draw.
+las funciones más centrales que usaremos en Processing son setup() y draw().
 
 setup() corre una vez y al principio, y la usaremos para definir las condiciones iniciales del bosquejo, como el tamaño de nuestro lienzo.
 
