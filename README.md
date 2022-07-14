@@ -22,6 +22,10 @@ Hay una carpeta por cada uno de los 5 módulos:
 - [4-proyeccion-luz-videomapping/](4-proyeccion-luz-videomapping/)
 - [5-taller-desarrollo-proyectos/](5-taller-desarrollo-proyectos/)
 
+## Kit de materiales
+
+- ![kit-materiales](media/kit-materiales.jpg)
+
 ## Tecnologías del curso
 
 - Los documentos de texto están escritos en Markdown https://es.wikipedia.org/wiki/Markdown
