@@ -16,6 +16,7 @@ hoy aprenderemos:
 
 - organización: https://github.com/sinestesiacc
 - programa: https://github.com/sinestesiacc/2022-programa-medios-interactivos/
+- berlin code of conduct: https://berlincodeofconduct.org/es/
 
 ## presentación estudiantes (15 min)
 
@@ -44,25 +45,55 @@ organizaciones:
 - School of Machines, Making and Make-Believe https://www.schoolofma.org/
 - Departamento de Diseño, Facultad de Arquitectura y Urbanismo, Universidad de Chile https://www.fau.uchile.cl/diseno
 
-## referencias del módulo
-
 ## sistemas numéricos (15 min)
 
 - decimal: base 10
 - binario: base 2
 - hexadecimal: base 16
 
-actividad: escribamos los primeros 21 números, empezando desde 0, usando los sistemas decimal, binario y hexadecimal.
+un número como 123,456 en decimal
+
+lo descomponemos como 1*$10^{2}$ + 2*$10^{1}$ + 3*$10^{0}$ + 4*$10^{-1}$ + 5*$10^{-2}$ + 6*$10^{-3}$
+
+| base 10 | base 2 | base 16 |
+| ------- | ------ | ------- |
+| 00      | 00000  | 00      |
+| 01      | 00001  | 01      |
+| 02      | 00010  | 02      |
+| 03      | 00011  | 03      |
+| 04      | 00100  | 04      |
+| 05      | 00101  | 05      |
+| 06      | 00110  | 06      |
+| 07      | 00110  | 07      |
+| 08      | 01000  | 08      |
+| 09      | 01001  | 09      |
+| 10      | 01010  | 0A      |
+| 11      | 01011  | 0B      |
+| 12      | 01100  | 0C      |
+| 13      | 01101  | 0D      |
+| 14      | 01110  | 0E      |
+| 15      | 01110  | 0F      |
+| 16      | 10000  | 10      |
+| 17      | 10001  | 11      |
+| 18      | 10010  | 12      |
+| 19      | 10011  | 13      |
+| 20      | 10100  | 14      |
+| 21      | 10101  | 15      |
+| 22      | 10110  | 16      |
+| 23      | 10111  | 17      |
 
 ## convenciones en programación (15 min)
 
 - en programación, contamos desde 0, por ejemplo si hay 3 elementos, son 0, 1, 2.
 
-- para escribir nombres compuestos por mas de una palabra, usaremos notación camello, donde escribimos todas las palabras juntas sin espacios, la primera es todo con minúsculas, y después cada palabra adicional empieza con mayúscula, por ejemplo estaPalabraEstaEscritaEnNotacionCamello.
+- en este curso no usaremos espacios para nombres de carpetas, archivos o variables, en vez de eso, usaremos distintas estrategias:
 
-- generalmente los espacios entre palabras importan, pero no importa cuánto espacio hay, el computador los omite, pero son muy importantes para que nuestro código sea legible.
+  - usaremos guiones "-", guiones bajos "\_" para nuestros archivos y carpetas.
+  - las variables de nuestro código estarán escritas en notación camello: donde escribimos todas las palabras juntas sin espacios, la primera es todo con minúsculas, y después cada palabra adicional empieza con mayúscula, por ejemplo estaPalabraEstaEscritaEnNotacionCamello.
 
-## descargar Processing y nuestro primer bosquejo
+- generalmente los espacios entre palabras importan, pero no importa cuánto espacio hay, el computador los omite, pero son muy importantes para que nuestro código sea legible y esté formateado de una manera legible.
+
+## descargar Processing y nuestro primer bosquejo (15 min)
 
 descargar Processing desde https://processing.org/
 
@@ -82,7 +113,7 @@ void draw() {
 
 ## condiciones iniciales y de refresco con setup() y draw() (15 min)
 
-las funciones más centrales que usaremos en Processing son setup() y draw.
+las funciones más centrales que usaremos en Processing son setup() y draw().
 
 setup() corre una vez y al principio, y la usaremos para definir las condiciones iniciales del bosquejo, como el tamaño de nuestro lienzo.
 
@@ -110,30 +141,60 @@ a diferencia de setup() y draw(), size(ancho, alto) necesita dos argumentos num�
 
 - size(ancho, alto): crea una ventana con el ancho y alto determinado en pixeles.
 
-para pintar el lienzo de un color, usaremos la función background(color), donde color podrá tomar distintas formas.
+para pintar el lienzo de un color, usaremos la función background(color), donde color podrá tomar distintas formas:
 
-## color en Processing (15 min)
+- si usamos 1 número, será interpretado como escala de grises.
+- si usamos 2 números, será interpretado como escala de grises y transparencia.
+- si usamos 3 números, serán interpretados como canales RGB (rojo, verde, azul).
+- si usamos 4 números, serán interpretados como canales RGB y transparencia.
 
-- ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles.
+donde:
 
-## figuras geométricas: point(), line(), ellipse() y rect() (30 min)
+- en escala de grises: 0 es negro, 255 es blanco.
+- transparencia: 0 es invisible, 255 es sólido.
+- RGB: 0 es nada de ese color, 255 es todo de ese color.
 
-## escala de grises, color RGB y transparencia alphas (30 min)
+estos valores ocurren porque Processing entiende color como un valor de 8-bits, valores entre 0 y 255. esta escala se puede cambiar con la función colorMode().
 
-Processing entiende color como un valor de 8-bits, valores entre 0 y 255.
+## puntos y líneas: point() y line() (15 min)
 
-la función stroke() permite colorear los bordes de los trazos de las figuras
+- point(posX, posY): crea un punto en la posición (posX, posY).
 
-la función fill() permite colorear los rellenos de las figuras
+- line(posX1, posY1, posX2, posY2): crea una línea entre los puntos (posX1, posY1) y pos(X2, Y2).
 
-dependiendo de cuántos números usamos para describir el color, tendremos distintos resultados:
+## figuras geométricas básicas: ellipse() y rect() (15 min)
 
-- 1 número: escala de grises, donde 0 es negro y 255 es blanco
-- 2 números, escala de grises y transparencia alpha, donde alpha=0 es transparente, y alpha=sólido
-- 3 números, canales RGB por rojo, verde, azul
-- 4 números, RGBA, RGB + transparencia alpha
+- rect(posX, posY, ancho, alto): crea un rectángulo en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles. por defecto, la posición define la esquina superior izquierda.
 
-si usamos dos números, se entienden como escala de grises y transparencia alpha
+- ellipse(posX, posY, ancho, alto): crea una elipse en la posición (posX, posY) y con las dimensiones ancho y alto medidas en pixeles. por defecto, la posición define el centro de la elipse.
+
+## bordes y rellenos de figuras: stroke() y fill()
+
+la función stroke(color) permite elegir los bordes de los trazos de las figuras. si no quieres tener stroke, puedes usar la función noStroke().
+
+la función fill(color) permite colorear los rellenos de las figuras. si no quieres tener un relleno, puedes usar la función noFill().
+
+los puntos y líneas están en 2D y no tienen relleno, solamente borde, por lo que usar la función noStroke() los hace invisibles, y la función noFill() no tiene efecto.
+
+## condicionales if / else (15 min)
+
+podemos hacer que nuestro código tenga bifurcaciones para distintos comportamientos, al usar condicionales, que en código tienen esta sintaxis.
+
+```processing
+if (condicion0) {
+// este código corre si la condicion0 es verdadera
+}
+else if (condicion1) {
+// este código corre si la condición0 es falsa, y ademas la condicion1 es verdadera
+}
+else {
+// este código corre si la condicion0 y la condicion1 son falsas
+}
+```
+
+siempre necesitamos un "if" con una condición que si es cierta, hace que el código dentro corra. si queremos comparar más condiciones, podemos usar condiciones adicionales en cascada con "else if", tantas como queramos.
+
+si queremos tener un código que solamente corra si todas las condiciones son falsas, al final escribimos un "else".
 
 ## biliografía:
 
@@ -142,6 +203,7 @@ si usamos dos números, se entienden como escala de grises y transparencia alpha
   - https://processing.org/tutorials/
   - https://processing.org/examples/
   - https://processing.org/books/
+- https://www.youtube.com/c/TheCodingTrain
 - Visible Languages Workshop https://act.mit.edu/special-collections/vlw-archive/
 - aesthetics + computation group https://acg.media.mit.edu/
 - physical langauge workshop https://plw.media.mit.edu/
