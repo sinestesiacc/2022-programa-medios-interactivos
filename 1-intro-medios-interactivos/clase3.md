@@ -9,6 +9,12 @@ hoy aprenderemos:
 - tipografías
 - cargar imágenes
 
+## enlaces a ejemplos de esta clase
+
+- []()
+- []()
+- []()
+
 para cargar imágenes
 
 loadPixels()
