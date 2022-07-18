@@ -1,4 +1,4 @@
-// ej_06_tres_cuadrados
+// ej_06_tres_elipses
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
@@ -21,17 +21,17 @@ void draw() {
   
   // relleno rojo
   fill(255, 0, 0);
-  // rectangulo rojo arriba izquierda
-  rect(100, 100, 20, 20);
+  // elipse roja arriba izquierda
+  ellipse(100, 100, 20, 20);
   
   // relleno verde
   fill(0, 255, 0);
-  // rectangulo verde central
-  rect(300, 300, 20, 30);
+  // elipse verde central
+  ellipse(300, 300, 20, 30);
   
   // relleno azul
   fill(0, 0, 255);
-  // rectangulo azul abajo derecha
-  rect(500, 500, 30, 40);
+  // elipse azul abajo derecha
+  ellipse(500, 500, 30, 40);
   
 }

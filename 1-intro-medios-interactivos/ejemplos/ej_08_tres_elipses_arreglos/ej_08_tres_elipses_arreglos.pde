@@ -1,4 +1,4 @@
-// ej_08_tres_cuadrados_arreglos
+// ej_08_tres_elipses_arreglos
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
@@ -6,7 +6,7 @@
 // hecho con Processing 4.0b8
 
 // numero de figuras
-int figuras = 30;
+int figuras = 300;
 
 // numero de dimensiones, 2D
 int dimensiones = 2;
@@ -63,9 +63,11 @@ void setup() {
 
 void draw() {
 
+  // dibujar todas las figuras
   for (int i = 0; i < figuras; i++) {
+    // relleno del color correspondiente
     fill(colores[i]);
-    rect(posX[i], posY[i], 20, 20);
+    // dibujar elipse correspondiente
+    ellipse(posX[i], posY[i], 20, 20);
   }
-
 }

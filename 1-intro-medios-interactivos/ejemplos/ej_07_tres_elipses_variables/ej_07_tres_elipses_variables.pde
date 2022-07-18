@@ -1,4 +1,4 @@
-// ej_07_tres_cuadrados_variables
+// ej_07_tres_elipses_variables
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
@@ -67,16 +67,16 @@ void draw() {
 
   // relleno rojo
   fill(rellenoRojo);
-  // rectangulo rojo arriba izquierda
-  rect(posX0, posY0, 20, 20);
+  // elipse roja arriba izquierda
+  ellipse(posX0, posY0, 20, 20);
 
   // relleno verde
   fill(rellenoVerde);
-  // rectangulo verde central
-  rect(posX1, posY1, 20, 30);
+  // elipse verde central
+  ellipse(posX1, posY1, 20, 30);
 
   // relleno azul
   fill(rellenoAzul);
-  // rectangulo azul abajo derecha
-  rect(posX2, posY2, 30, 40);
+  // elipse azul abajo derecha
+  ellipse(posX2, posY2, 30, 40);
 }
