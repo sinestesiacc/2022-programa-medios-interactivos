@@ -10,6 +10,12 @@ hoy aprenderemos:
 - bucles: for()
 - condiciones: if, else
 
+## enlaces a ejemplos de esta clase
+
+- []()
+- []()
+- []()
+
 ## repaso clase pasada (15 min)
 
 conceptos importantes:

@@ -12,6 +12,15 @@ hoy aprenderemos:
 - figuras geométricas: point(), line(), ellipse() y rect()
 - escala de grises, color RGB y transparencia alphas
 
+## enlaces a ejemplos de esta clase
+
+- [ejemplos/ej_00_primera_elipse/](./ejemplos/ej_00_primera_elipse/)
+- [ejemplos/ej_01_colores_lienzo_fondo/](./ejemplos/ej_01_colores_lienzo_fondo/)
+- [ejemplos/ej_02_puntos_lineas/](./ejemplos/ej_02_puntos_lineas/)
+- [ejemplos/ej_03_elipse_rectangulo/](./ejemplos/ej_03_elipse_rectangulo/)
+- [ejemplos/ej_04_bordes_rellenos/](./ejemplos/ej_04_bordes_rellenos/)
+- [ejemplos/ej_05_condicionales/](./ejemplos/ej_05_condicionales/)
+
 ## programa y organización (15 min)
 
 - organización: https://github.com/sinestesiacc
