@@ -10,6 +10,8 @@ hoy aprenderemos:
 - variables y scope
 - arreglos
 - bucles for()
+- funciones y argumentos
+- exportar a archivos de imagen
 
 ## enlaces a ejemplos de esta clase
 
@@ -17,6 +19,9 @@ hoy aprenderemos:
 - [ej_07_tres_elipses_variables](./ejemplos/ej_07_tres_elipses_variables/)
 - [ej_08_tres_elipses_arreglos](./ejemplos/ej_08_tres_elipses_arreglos/)
 - [ej_09_variables_scope/](./ejemplos/ej_09_variables_scope/)
+- [ej_10_bucles_for](./ejemplos/ej_10_bucles_for/)
+- [ej_11_tres_elipses_funcion/](./ejemplos/ej_11_tres_elipses_funcion/)
+- [ej_12_grabar_lienzo/](./ejemplos/ej_12_grabar_lienzo/)
 
 ## repaso clase pasada (15 min)
 
@@ -74,7 +79,20 @@ como es muy usual aumentar o disminuir en 1 el valor de un número entero, en lo
 - i = i + 1; equivale a i++;
 - i = i - 1; equivale a i--;
 
+## pausa (15 min)
+
 ## declarar funciones (15 min)
+
+cuando escribimos suficiente código que queremos reutilizar, podemos encapsularlo en nuestra propia función, que podemos correr en cualquier momento, y con distintos argumentos para lograr distintos resultados.
+
+```processing
+void dibujarLineaAleatoria(float posXMax, float posYMax, float maxAncho) {
+    stroke(random(maxAncho));
+    line(random(posXMax), random(posYMax));
+}
+```
+
+## exportar nuestro lienzo (15 min)
 
 ## estrategias de dibujo programático (15 min)
 
@@ -84,10 +102,16 @@ dibujar con dispositivos HID (teclado, ratón) como controlador de parámetros
 
 Programming design systems
 
-## (15 min)
+## subir nuestro propio código a GitHub (15 min)
 
-## (15 min)
+hagamos inicio de sesión en GitHub.
 
-## (15 min)
+vayamos a la web del repositorio de la clase.
+
+hay 3 opciones:
+
+1. están atrás ("behind") del repositorio, o sea que han habido cambios en el original, que su repositorio todavía no tiene. Para aceptar esos cambios, hacemos click en "Fetch upstream", y en el botón verde "Fetch and merge". Tras esto, el repo dirá "This branch is up to date with sinestesiacc/2022-programa-medios-interactivos:main."
+2. ustedes están adelante, y pueden contribuir al repositorio, con el botón "Contribute" que les permite crear una "pull request", para proponer al repo de la clase a que incorpore sus cambios.
+3. están exactamente igual que el repo original, y dirá "up to date", o sea, no estarán ni adelante ni atrás :)
 
 ## (15 min)
