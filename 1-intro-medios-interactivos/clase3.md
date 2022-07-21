@@ -31,6 +31,15 @@ licencias de tipografías
 
 ## (15 min)
 
+data/ folder
+
+PImage imagen = loadImage("archivo.jpg");
+
+image(img, 10, 20);
+image(img, 10, 20, 30, 40);
+
+tint();
+
 loadPixels()
 
 glitch()
@@ -55,3 +64,8 @@ glitch()
 
 - https://www.design-research.be/by-womxn/
 - http://collletttivo.it/
+- https://processing.org/examples/alphamask.html
+- https://processing.org/examples/backgroundimage.html
+- https://processing.org/examples/createimage.html
+- https://processing.org/examples/loaddisplayimage.html
+- https://processing.org/examples/transparency.html
