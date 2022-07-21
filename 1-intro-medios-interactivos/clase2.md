@@ -21,7 +21,7 @@ hoy aprenderemos:
 - [ej_09_variables_scope/](./ejemplos/ej_09_variables_scope/)
 - [ej_10_bucles_for](./ejemplos/ej_10_bucles_for/)
 - [ej_11_tres_elipses_funcion/](./ejemplos/ej_11_tres_elipses_funcion/)
-- [ej_12_grabar_lienzo/](./ejemplos/ej_12_grabar_lienzo/)
+- [ej_12_exportar_lienzo/](./ejemplos/ej_12_exportar_lienzo/)
 
 ## repaso clase pasada (15 min)
 
@@ -92,15 +92,40 @@ void dibujarLineaAleatoria(float posXMax, float posYMax, float maxAncho) {
 }
 ```
 
+la primera palabra en este ejemplo es void ( del inglés "vacío"), que indica que la función tras correr, no arroja ningún resultado. los otros tipos posibles con int, float, String, char, y cualquier otro tipo de datos que tenga el lenguaje.
+
+después usamos una palabra como "dibujarLineaAleatoria", que nos permite darle un nombre reconocible a la función, para poder usarla en el código cuando queramos.
+
+después entre paréntesis(), podemos opcionalmente agregar argumentos. si lo hacemos, debemos declarar su tipo y nombre, con el que podremos referirnos dentro de la función.
+
+luego dentro de las llaves {} podemos escribir el código que correrá cada vez que llamemos a nuestra función.
+
 ## exportar nuestro lienzo (15 min)
+
+Processing siempre tiene un estado actual del lienzo que podemos grabar.
+
+para eso, recomendamos usar la función saveFrame(), que toma el contenido actual del lienzo y lo graba con el nombre que tenemos.
+
+podemos hacer que el resultado de esto sea una imagen .jpg u otro formato, con un nombre estático. también podemos usar gatos #### que al exportar son reemplazados con el número actual del cuadro del lienzo, permitiéndonos así generar secuencias de imágenes.
 
 ## estrategias de dibujo programático (15 min)
 
-dibujar con dispositivos HID (teclado, ratón) como cursor
+podemos dibujar con distintos enfoques, por ejemplo, dejando que el tiempo transcurra, o creando servidores web que nos permitan leer tendencias en Twitter que controlen nuestro dibujo, o incluso sensores y algoritmos de inteligencia artificial que detecten nuestra pose y con eso dibujar.
 
-dibujar con dispositivos HID (teclado, ratón) como controlador de parámetros
+antes de tomar ese rumbo, cuando estamos aprendiendo, es bueno usar los rudimentos de programación interactive que nos dan los llamados HID, por sus siglas en inglés de Human Interface Device o dispositivos de interfaz humana, que en nuestro caso serán nuestro ratón y teclado.
 
-Programming design systems
+con nuestro ratón podemos:
+
+- detectar click en distintos botones
+- detectar velocidad o ritmo entre clicks
+- detectar posición del cursor en XY, quizás Z?
+
+con nuestro teclado podemos:
+
+- detectar el presionar de distintas teclas
+- detectar secuencias de teclas en el tiempo
+- detectar rapidez entre repeticiones o patrones de teclas
+- detectar mayúsculas o minúsculas
 
 ## subir nuestro propio código a GitHub (15 min)
 
@@ -114,4 +139,10 @@ hay 3 opciones:
 2. ustedes están adelante, y pueden contribuir al repositorio, con el botón "Contribute" que les permite crear una "pull request", para proponer al repo de la clase a que incorpore sus cambios.
 3. están exactamente igual que el repo original, y dirá "up to date", o sea, no estarán ni adelante ni atrás :)
 
-## (15 min)
+## bibliografía (15 min)
+
+- https://www.patatap.com/
+- https://www.programmingdesignsystems.com/
+- https://en.wikipedia.org/wiki/Human_interface_device
+- https://musiclab.chromeexperiments.com/
+- https://learningmusic.ableton.com/

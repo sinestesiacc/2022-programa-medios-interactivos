@@ -1,4 +1,4 @@
-// ej_12_grabar_lienzo
+// ej_12_exportar_lienzo
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
@@ -45,6 +45,7 @@ void keyPressed() {
   // si la tecla es i de imprimir
   if (key == 'i') {
     // grabar cuadro actual
+    // gatos # son reemplazados por numero de cuadro
     saveFrame("lineaBacan######.jpg");
   }
   // si la tecla es s de siguiente
