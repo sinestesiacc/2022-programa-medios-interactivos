@@ -19,6 +19,14 @@ hoy aprenderemos:
 
 ## (15 min)
 
+tipografía
+
+cargar tipografías
+
+exportar a archivo .vlw con Processing 4
+
+licencias de tipografías
+
 ## (15 min)
 
 ## (15 min)
@@ -44,3 +52,6 @@ glitch()
 ## (15 min)
 
 ## bibliografía
+
+- https://www.design-research.be/by-womxn/
+- http://collletttivo.it/
