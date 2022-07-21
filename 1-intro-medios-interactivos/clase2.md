@@ -59,9 +59,20 @@ un clásico de programación es el llamado bucle for(), que se construye de la s
 
 ```processing
 for (int i = 0; i < 4; i++) {
-
+  println(i);
 }
 ```
+
+sabemos que las líneas de código en Processing terminan en punto y coma ";", y dentro de los paréntesis del bucle, tenemos 2, que delimitan las 3 distintas pequeńas líneas de código que viven ahí:
+
+1. declaración de variable de iteración: int i = 0
+2. condición de continuar dentro del bucle: i < 4
+3. refresco que ocurre cada vez que termina el bucle: i++
+
+como es muy usual aumentar o disminuir en 1 el valor de un número entero, en los lenguajes de programación hay atajos para esto, que son equivalentes, como:
+
+- i = i + 1; equivale a i++;
+- i = i - 1; equivale a i--;
 
 ## declarar funciones (15 min)
 
