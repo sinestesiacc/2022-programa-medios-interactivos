@@ -15,6 +15,7 @@ void setup() {
 
   // fondo blanco
   background(255);
+
 }
 
 void draw() {
@@ -35,7 +36,7 @@ void keyPressed() {
   // si la tecla es i de imprimir
   if (key == 'i') {
     // grabar cuadro actual
-    saveFrame("lineaBacan.jpg");
+    saveFrame("lineaBacan######.jpg");
   }
   // si la tecla es s de siguiente
   else if (key == 's') {
