@@ -15,8 +15,32 @@ hoy aprenderemos:
 - []()
 - []()
 
-para cargar imágenes
+## repaso clase pasada (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
 
 loadPixels()
 
 glitch()
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## bibliografía
