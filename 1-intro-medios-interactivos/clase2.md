@@ -22,7 +22,7 @@ hoy aprenderemos:
 
 conceptos importantes:
 
-- Processing 4
+- Processing 4 y Java
 - funciones setup() y draw()
 - funciones size() y background()
 - figuras ellipse() y rect()
@@ -38,7 +38,7 @@ las variables nos permiten tener valores que podemos cambiar.
 
 también nos permiten generar reacciones en cascada en nuestro código.
 
-## variables y scope
+## variables y scope (15 min)
 
 podemos declarar las variables en 2 lugares distintos:
 
@@ -49,14 +49,34 @@ podemos declarar las variables en 2 lugares distintos:
 
 un arreglo nos permite crear un grupo variables que comparten un nombre.
 
-## declarar funciones (15 min)
+esto es muy importante para poder hacer iteraciones, y poder rápidamente hacer lo que los computadores hacen muy bien: repetir.
 
 ## iteración con bucles for (15 min)
 
-## estrategias de dibujo programático
+ya vimos un bucle en Processing, que es la función draw(), que Processing se encargar de correrla periódicamente para animar nuestros dibujos.
+
+un clásico de programación es el llamado bucle for(), que se construye de la siguiente manera en Java:
+
+```processing
+for (int i = 0; i < 4; i++) {
+
+}
+```
+
+## declarar funciones (15 min)
+
+## estrategias de dibujo programático (15 min)
 
 dibujar con dispositivos HID (teclado, ratón) como cursor
 
 dibujar con dispositivos HID (teclado, ratón) como controlador de parámetros
 
 Programming design systems
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
+
+## (15 min)
