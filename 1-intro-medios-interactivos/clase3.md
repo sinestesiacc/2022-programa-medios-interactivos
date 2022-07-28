@@ -14,8 +14,13 @@ hoy aprenderemos:
 ## enlaces a ejemplos de esta clase
 
 - [ejemplos/ej_13_texto/](./ejemplos/ej_13_texto/)
-- []()
-- []()
+- [ejemplos/ej_14_texto_tamano/](./ejemplos/ej_14_texto_tamano/)
+- [ejemplos/ej_15_texto_tipografia/](./ejemplos/ej_15_texto_tipografia/)
+- [ejemplos/ej_16_texto_rotacion/](./ejemplos/ej_16_texto_rotacion/)
+- [ejemplos/ej_17_cargar_imagen/](./ejemplos/ej_17_cargar_imagen/)
+- [ejemplos/ej_18_procesar_imagen/](./ejemplos/ej_18_procesar_imagen/)
+- [ejemplos/ej_19_puntillismo_imagen/](./ejemplos/ej_19_puntillismo_imagen/)
+- [ejemplos/ej_20_repetir_imagen/](./ejemplos/ej_20_repetir_imagen/)
 
 ## repaso clase pasada (15 min)
 
@@ -74,8 +79,6 @@ image(img, 10, 20, 30, 40);
 tint();
 
 loadPixels()
-
-glitch()
 
 ## (15 min)
 
