@@ -1,9 +1,12 @@
-// ej_19_puntillismo_imagen
+// ej_15_puntillismo_imagen
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
 // v0.0.1 julio 2022
 // hecho con Processing 4.0b8
+
+// este ejemplo usa las portadas de los dos primeros discos
+// de Javiera Mena: Esquemas Juveniles y Mena
 
 // codigo traducido al espanol y adaptado
 // del original disponible en

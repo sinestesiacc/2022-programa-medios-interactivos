@@ -1,18 +1,16 @@
-// ej_20_repetir_imagen
+// ej_13_cargar_imagen
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
 // v0.0.1 julio 2022
 // hecho con Processing 4.0b8
 
+// este ejemplo usa las portadas de los dos primeros discos
+// de Javiera Mena: Esquemas Juveniles y Mena
+
 // variables para imagenes
 PImage esquemas;
 PImage mena;
-
-int repetirEsquemas = 2;
-int repetirMena = 2;
-
-int velocidad = 10;
 
 void setup() {
 
@@ -25,15 +23,12 @@ void setup() {
   // cargar imagenes
   esquemas = loadImage("esquemas.jpg");
   mena = loadImage("mena.jpg");
-  
-  frameRate(velocidad);
-
 }
 
 
 void draw() {
-  repetirImagen(esquemas, repetirEsquemas);
-  repetirImagen(mena, repetirMena);
+  image(esquemas, 0, 0);
+  image(mena, width/2, 0);
 }
 
 // funcion que corre cuando se presiona una tecla
@@ -45,20 +40,5 @@ void keyPressed() {
     // si la tecla es g, grabar cuadro
   } else if (key == 'g') {
     saveFrame("hola.jpg");
-  }
-}
-
-void repetirImagen(PImage imagen, int repeticiones) {
-
-  for (int i = 0; i < repeticiones; i++) {
-    pushMatrix();
-
-    translate(random(width), random(height));
-    rotate(random(360));
-
-    float nuevoAncho = random(imagen.width);
-    float nuevaAltura = nuevoAncho * imagen.width / imagen.height;
-    image(imagen, 0, 0, nuevoAncho, nuevaAltura);
-    popMatrix();
   }
 }

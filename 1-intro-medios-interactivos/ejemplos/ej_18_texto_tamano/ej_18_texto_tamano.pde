@@ -1,4 +1,4 @@
-// ej_14_texto_tamano
+// ej_18_texto_tamano
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
@@ -9,8 +9,10 @@ String palabra = "hola";
 
 int velocidad = 5;
 
-float tamanoHorizontal = 10;
+// tamano horizontal
+float tamanoTexto = 10;
 
+// 
 float tamanoCajaX = 100;
 float tamanoCajaY = 1000;
 
@@ -29,10 +31,14 @@ void setup() {
 
 void draw() {
 
-  tamanoHorizontal = map(mouseX, 0, width, 10, 100);
-  textSize(tamanoHorizontal);
-
-  tamanoCajaX = map(mouseY, 0, height, textWidth(palabra)+10, textWidth(palabra)/palabra.length());
+  // tomar posX del raton y mapearla del rango 0-ancho a 10-100
+  tamanoTexto = map(mouseX, 0, width, 10, 100);
+  
+  // definir tamano del texto
+  textSize(tamanoTexto);
+  
+  // tomar posY del raton y mapearla desde 0-altura al rango tamano de un caracter a (ancho de la palabra + 1 caracter)
+  tamanoCajaX = map(mouseY, 0, height, textWidth(palabra)/palabra.length(), textWidth(palabra + " "));
 
   // text(String, posX, posY);
   text(palabra, random(width), random(height), tamanoCajaX, tamanoCajaY);

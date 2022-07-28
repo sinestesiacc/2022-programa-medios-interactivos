@@ -1,4 +1,4 @@
-// ej_15_texto_tipografia
+// ej_19_texto_tipografia
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022

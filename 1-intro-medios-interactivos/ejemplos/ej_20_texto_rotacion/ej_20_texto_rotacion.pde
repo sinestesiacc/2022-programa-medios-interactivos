@@ -1,4 +1,4 @@
-// ej_16_texto_rotacion
+// ej_20_texto_rotacion
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa Medios Interactivos 2022
