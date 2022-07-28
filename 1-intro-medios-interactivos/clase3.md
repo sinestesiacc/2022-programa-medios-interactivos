@@ -37,16 +37,26 @@ este texto es por defecto de color blanco, con borde negro, con una tipografía 
 
 ## tamaño de texto (15 min)
 
-textSize()
-text() con 5 parámetros
+podemos controlar el tamaño del texto con la función textSize(), que acepta un parámetro de número para especificar el tamaño.
 
-## rotación de texto (15 min)
+otra opción de modificar tamaño, es no del texto en sí, pero de la caja contenedora donde se dibuja, lo que se puede hacer con text() y 2 parámetros adicionales para:
+
+- tamaño caja contenedora en eje X
+- tamaño caja contenedora en eje Y
 
 ## tipografías (15 min)
 
 tipografía
 
 cargar tipografías
+
+## traslación y rotación en Processing (15 min)
+
+como sabemos, en Processing contamos nuestro origen (0, 0) en la esquina superior izquierda, pero eso se puede modificar con la función translate(x, y), que nos permite modificar el origen.
+
+nota: cada vez que nuestro bucle draw() termina, la traslación se anula, entonces no es acumulativa por cuadro.
+
+## grabar y recuperar coordenadas con popMatrix y pushMatrix (15 min)
 
 exportar a archivo .vlw con Processing 4
 
@@ -66,8 +76,6 @@ tint();
 loadPixels()
 
 glitch()
-
-## (15 min)
 
 ## (15 min)
 

@@ -1,0 +1,1 @@
+Copyright (c) 2018, Juliette Duhé <juliette.duhe@yahoo.fr>, Léa Pradine <lea.pradine@gmail.com>, Valentin Papon <papon.valentin@me.com>, Sébastien Riollier <s.riollier@gmail.com> and Chloé Lozano <chloejulielozano@gmail.com>

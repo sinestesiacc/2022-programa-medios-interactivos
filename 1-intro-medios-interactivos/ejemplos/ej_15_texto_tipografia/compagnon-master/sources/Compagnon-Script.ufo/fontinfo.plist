@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>590</integer>
+	<key>capHeight</key>
+	<integer>590</integer>
+	<key>copyright</key>
+	<string>2018 - Chloé Lozano</string>
+	<key>descender</key>
+	<integer>-160</integer>
+	<key>familyName</key>
+	<string>Compagnon</string>
+	<key>openTypeHeadCreated</key>
+	<string>2018/06/06 03:25:29</string>
+	<key>openTypeHheaAscender</key>
+	<integer>1040</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-160</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Chloé Lozano</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>http://chloelozano.fr</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Velvetyne Type Foundry</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://velvetyne.fr</string>
+	<key>openTypeOS2CodePageRanges</key>
+	<array>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>590</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-160</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>450</integer>
+	<key>openTypeOS2UnicodeRanges</key>
+	<array>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2VendorID</key>
+	<string>VTF</string>
+	<key>openTypeOS2WinAscent</key>
+	<integer>1040</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>160</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-13</integer>
+		<integer>0</integer>
+		<integer>430</integer>
+		<integer>443</integer>
+		<integer>590</integer>
+		<integer>603</integer>
+	</array>
+	<key>postscriptFontName</key>
+	<string>Compagnon-Regular</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-173</integer>
+		<integer>-160</integer>
+	</array>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>430</integer>
+</dict>
+</plist>

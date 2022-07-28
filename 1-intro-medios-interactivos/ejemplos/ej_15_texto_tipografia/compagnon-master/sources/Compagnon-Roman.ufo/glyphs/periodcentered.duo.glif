@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered.duo" format="2">
+	<advance width="300"/>
+	<note>
+		periodcentered.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="152" y="197" type="curve" smooth="yes"/>
+			<point x="206" y="197"/>
+			<point x="250" y="244"/>
+			<point x="250" y="296" type="curve" smooth="yes"/>
+			<point x="250" y="349"/>
+			<point x="206" y="395"/>
+			<point x="152" y="395" type="curve" smooth="yes"/>
+			<point x="97" y="395"/>
+			<point x="50" y="349"/>
+			<point x="50" y="296" type="curve" smooth="yes"/>
+			<point x="50" y="244"/>
+			<point x="97" y="197"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>590</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>copyright</key>
+	<string>2018 - Sebastien Riollier</string>
+	<key>descender</key>
+	<integer>-160</integer>
+	<key>familyName</key>
+	<string>Compagnon</string>
+	<key>openTypeHeadCreated</key>
+	<string>2018/07/07 15:22:53</string>
+	<key>openTypeNameDescription</key>
+	<string>La famille Compagnon a ete developpee dans le cadre du cours de typographie de Benjamin Gomez (EESAB Rennes)</string>
+	<key>openTypeNameDesigner</key>
+	<string>Sebastien Riollier</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>s.riollier@gmail.com</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Velvetyne Type Foundry</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://velvetyne.fr</string>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-13</integer>
+		<integer>0</integer>
+		<integer>430</integer>
+		<integer>443</integer>
+		<integer>590</integer>
+		<integer>603</integer>
+	</array>
+	<key>postscriptFontName</key>
+	<string>Compagnon-Regular</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-173</integer>
+		<integer>-160</integer>
+	</array>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>12</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>430</integer>
+</dict>
+</plist>

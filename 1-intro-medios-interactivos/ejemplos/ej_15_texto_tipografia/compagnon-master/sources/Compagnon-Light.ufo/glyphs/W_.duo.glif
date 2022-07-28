@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W.duo" format="2">
+	<advance width="900"/>
+	<note>
+		W.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="889" y="590" type="line"/>
+			<point x="702" y="590" type="line"/>
+			<point x="702" y="558" type="line"/>
+			<point x="779" y="558" type="line"/>
+			<point x="646" y="30" type="line"/>
+			<point x="627" y="30" type="line"/>
+			<point x="490" y="590" type="line"/>
+			<point x="415" y="590" type="line"/>
+			<point x="278" y="30" type="line"/>
+			<point x="259" y="30" type="line"/>
+			<point x="127" y="558" type="line"/>
+			<point x="203" y="558" type="line"/>
+			<point x="203" y="590" type="line"/>
+			<point x="17" y="590" type="line"/>
+			<point x="17" y="558" type="line"/>
+			<point x="95" y="558" type="line"/>
+			<point x="232" y="0" type="line"/>
+			<point x="301" y="0" type="line"/>
+			<point x="444" y="559" type="line"/>
+			<point x="460" y="559" type="line"/>
+			<point x="603" y="0" type="line"/>
+			<point x="674" y="0" type="line"/>
+			<point x="810" y="558" type="line"/>
+			<point x="889" y="558" type="line"/>
+		</contour>
+	</outline>
+</glyph>

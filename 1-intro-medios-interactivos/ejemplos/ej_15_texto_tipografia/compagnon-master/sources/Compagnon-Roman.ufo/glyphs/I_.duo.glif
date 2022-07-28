@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I.duo" format="2">
+	<advance width="300"/>
+	<note>
+		I.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="176" y="50" type="line"/>
+			<point x="176" y="540" type="line"/>
+			<point x="262" y="540" type="line"/>
+			<point x="262" y="590" type="line"/>
+			<point x="38" y="590" type="line"/>
+			<point x="38" y="540" type="line"/>
+			<point x="126" y="540" type="line"/>
+			<point x="126" y="50" type="line"/>
+			<point x="38" y="50" type="line"/>
+			<point x="38" y="0" type="line"/>
+			<point x="262" y="0" type="line"/>
+			<point x="262" y="50" type="line"/>
+		</contour>
+	</outline>
+</glyph>

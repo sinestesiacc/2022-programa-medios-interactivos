@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five.osf" format="2">
+	<advance width="600"/>
+	<note>
+		five.osf
+	</note>
+	<outline>
+		<contour>
+			<point x="332" y="261" type="curve" smooth="yes"/>
+			<point x="409" y="261"/>
+			<point x="491" y="221"/>
+			<point x="491" y="112" type="curve" smooth="yes"/>
+			<point x="491" y="-36"/>
+			<point x="239" y="-142"/>
+			<point x="75" y="-142" type="curve"/>
+			<point x="75" y="-173" type="line"/>
+			<point x="264" y="-169"/>
+			<point x="521" y="-63"/>
+			<point x="521" y="111" type="curve" smooth="yes"/>
+			<point x="521" y="237"/>
+			<point x="432" y="291"/>
+			<point x="332" y="291" type="curve" smooth="yes"/>
+			<point x="253" y="291"/>
+			<point x="177" y="248"/>
+			<point x="147" y="224" type="curve"/>
+			<point x="182" y="463" type="line"/>
+			<point x="496" y="463" type="line"/>
+			<point x="496" y="493" type="line"/>
+			<point x="156" y="493" type="line"/>
+			<point x="114" y="208" type="line"/>
+			<point x="149" y="188" type="line"/>
+			<point x="185" y="215"/>
+			<point x="255" y="261"/>
+		</contour>
+	</outline>
+</glyph>

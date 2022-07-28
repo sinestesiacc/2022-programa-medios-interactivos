@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotlessi.duo" format="2">
+	<advance width="300"/>
+	<note>
+		dotlessi.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="168" y="430" type="line"/>
+			<point x="135" y="430" type="line"/>
+			<point x="135" y="33" type="line"/>
+			<point x="40" y="33" type="line"/>
+			<point x="40" y="0" type="line"/>
+			<point x="263" y="0" type="line"/>
+			<point x="263" y="33" type="line"/>
+			<point x="168" y="33" type="line"/>
+		</contour>
+	</outline>
+</glyph>

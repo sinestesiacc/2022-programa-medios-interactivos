@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright.duo" format="2">
+	<advance width="300"/>
+	<note>
+		bracketright.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="17" y="-43" type="line"/>
+			<point x="17" y="-93" type="line"/>
+			<point x="283" y="-93" type="line"/>
+			<point x="283" y="590" type="line"/>
+			<point x="17" y="590" type="line"/>
+			<point x="17" y="540" type="line"/>
+			<point x="233" y="540" type="line"/>
+			<point x="233" y="-43" type="line"/>
+		</contour>
+	</outline>
+</glyph>

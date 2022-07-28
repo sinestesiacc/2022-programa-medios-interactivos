@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="1">
+  <advance width="600"/>
+  <unicode hex="201C"/>
+  <outline>
+    <component base="comma" xScale="-0.9848" xyScale="-0.1736" yScale="-0.9848" yxScale="0.1736" xOffset="634.111" yOffset="483.743"/>
+    <component base="comma" xScale="-0.9848" xyScale="-0.1736" yScale="-0.9848" yxScale="0.1736" xOffset="448.111" yOffset="483.743"/>
+  </outline>
+</glyph>

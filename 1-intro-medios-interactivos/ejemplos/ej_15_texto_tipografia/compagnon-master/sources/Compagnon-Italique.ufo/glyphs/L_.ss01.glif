@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L.ss01" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="193.2" y="30" type="line"/>
+      <point x="300" y="560.4" type="line"/>
+      <point x="476.4" y="560.4" type="line"/>
+      <point x="482.4" y="590.4" type="line"/>
+      <point x="207.6" y="590.4" type="line"/>
+      <point x="201.6" y="560.4" type="line"/>
+      <point x="268.8" y="560.4" type="line"/>
+      <point x="162" y="30" type="line"/>
+      <point x="82.8" y="30" type="line"/>
+      <point x="76.8" y="0" type="line"/>
+      <point x="536.4" y="0" type="line"/>
+      <point x="576" y="210" type="line"/>
+      <point x="543.6" y="213.6" type="line"/>
+      <point x="508.8" y="30" type="line"/>
+    </contour>
+    <component base="Swash" xOffset="-159"/>
+    <contour>
+      <point x="340.8" y="589.2" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

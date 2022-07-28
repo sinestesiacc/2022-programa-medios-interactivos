@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comma.duo" format="2">
+	<advance width="300"/>
+	<note>
+		comma.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="102" y="-13" type="curve" smooth="yes"/>
+			<point x="152" y="-13"/>
+			<point x="181" y="25"/>
+			<point x="181" y="66" type="curve" smooth="yes"/>
+			<point x="181" y="88"/>
+			<point x="174" y="109"/>
+			<point x="165" y="119" type="curve"/>
+			<point x="185" y="109"/>
+			<point x="206" y="80"/>
+			<point x="206" y="30" type="curve" smooth="yes"/>
+			<point x="206" y="-57"/>
+			<point x="141" y="-111"/>
+			<point x="55" y="-120" type="curve"/>
+			<point x="69" y="-169" type="line"/>
+			<point x="155" y="-160"/>
+			<point x="253" y="-91"/>
+			<point x="253" y="30" type="curve" smooth="yes"/>
+			<point x="253" y="130"/>
+			<point x="188" y="190"/>
+			<point x="117" y="190" type="curve" smooth="yes"/>
+			<point x="61" y="190"/>
+			<point x="4" y="153"/>
+			<point x="4" y="88" type="curve" smooth="yes"/>
+			<point x="4" y="30"/>
+			<point x="46" y="-13"/>
+		</contour>
+	</outline>
+</glyph>

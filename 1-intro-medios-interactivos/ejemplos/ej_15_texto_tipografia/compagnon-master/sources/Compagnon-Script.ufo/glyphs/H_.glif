@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="H" format="2">
+	<advance width="600"/>
+	<unicode hex="0048"/>
+	<note>
+		H
+	</note>
+	<outline>
+		<contour>
+			<point x="217" y="603" type="curve" smooth="yes"/>
+			<point x="179" y="603"/>
+			<point x="176" y="581"/>
+			<point x="168" y="553" type="curve" smooth="yes"/>
+			<point x="36" y="47" type="line" smooth="yes"/>
+			<point x="28" y="20"/>
+			<point x="29" y="-10"/>
+			<point x="58" y="-11" type="curve" smooth="yes"/>
+			<point x="82" y="-12"/>
+			<point x="95" y="0"/>
+			<point x="104" y="37" type="curve" smooth="yes"/>
+			<point x="236" y="543" type="line" smooth="yes"/>
+			<point x="243" y="569"/>
+			<point x="257" y="603"/>
+		</contour>
+		<contour>
+			<point x="568" y="602" type="curve" smooth="yes"/>
+			<point x="530" y="602"/>
+			<point x="526" y="580"/>
+			<point x="519" y="552" type="curve" smooth="yes"/>
+			<point x="451" y="293" type="line"/>
+			<point x="289" y="292"/>
+			<point x="197" y="275"/>
+			<point x="177" y="197" type="curve" smooth="yes"/>
+			<point x="160" y="132"/>
+			<point x="258" y="9"/>
+			<point x="409" y="-12" type="curve" smooth="yes"/>
+			<point x="442" y="-17"/>
+			<point x="445" y="-1"/>
+			<point x="455" y="36" type="curve" smooth="yes"/>
+			<point x="504" y="224" type="line"/>
+			<point x="552" y="224" type="line" smooth="yes"/>
+			<point x="567" y="224"/>
+			<point x="582" y="243"/>
+			<point x="585" y="259" type="curve" smooth="yes"/>
+			<point x="589" y="278"/>
+			<point x="572" y="293"/>
+			<point x="559" y="293" type="curve" smooth="yes"/>
+			<point x="522" y="293" type="line"/>
+			<point x="587" y="542" type="line" smooth="yes"/>
+			<point x="594" y="568"/>
+			<point x="608" y="602"/>
+		</contour>
+		<contour>
+			<point x="433" y="224" type="curve"/>
+			<point x="390" y="58" type="line"/>
+			<point x="317" y="69"/>
+			<point x="236" y="143"/>
+			<point x="248" y="191" type="curve" smooth="yes"/>
+			<point x="256" y="224"/>
+			<point x="336" y="224"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesingle.duo" format="2">
+	<advance width="300"/>
+	<note>
+		quotesingle.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="66" y="466" type="curve" smooth="yes"/>
+			<point x="99" y="466"/>
+			<point x="126" y="494"/>
+			<point x="126" y="522" type="curve" smooth="yes"/>
+			<point x="126" y="541"/>
+			<point x="120" y="558"/>
+			<point x="109" y="567" type="curve"/>
+			<point x="138" y="558"/>
+			<point x="161" y="515"/>
+			<point x="161" y="473" type="curve" smooth="yes"/>
+			<point x="161" y="408"/>
+			<point x="103" y="342"/>
+			<point x="36" y="335" type="curve"/>
+			<point x="40" y="310" type="line"/>
+			<point x="112" y="317"/>
+			<point x="186" y="388"/>
+			<point x="186" y="473" type="curve" smooth="yes"/>
+			<point x="186" y="548"/>
+			<point x="139" y="603"/>
+			<point x="78" y="603" type="curve" smooth="yes"/>
+			<point x="38" y="603"/>
+			<point x="0" y="575"/>
+			<point x="0" y="534" type="curve" smooth="yes"/>
+			<point x="0" y="495"/>
+			<point x="29" y="466"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="2">
+	<advance width="600"/>
+	<unicode hex="00AB"/>
+	<note>
+		guillemotleft
+	</note>
+	<outline>
+		<contour>
+			<point x="162" y="255" type="curve"/>
+			<point x="228" y="305"/>
+			<point x="284" y="356"/>
+			<point x="330" y="406" type="curve"/>
+			<point x="300" y="444" type="line"/>
+			<point x="240" y="381"/>
+			<point x="169" y="318"/>
+			<point x="89" y="255" type="curve"/>
+			<point x="169" y="192"/>
+			<point x="240" y="129"/>
+			<point x="300" y="66" type="curve"/>
+			<point x="330" y="104" type="line"/>
+			<point x="284" y="154"/>
+			<point x="228" y="205"/>
+		</contour>
+		<contour>
+			<point x="344" y="255" type="curve"/>
+			<point x="410" y="305"/>
+			<point x="466" y="356"/>
+			<point x="512" y="406" type="curve"/>
+			<point x="482" y="444" type="line"/>
+			<point x="422" y="381"/>
+			<point x="351" y="318"/>
+			<point x="271" y="255" type="curve"/>
+			<point x="351" y="192"/>
+			<point x="422" y="129"/>
+			<point x="482" y="66" type="curve"/>
+			<point x="512" y="104" type="line"/>
+			<point x="466" y="154"/>
+			<point x="410" y="205"/>
+		</contour>
+	</outline>
+</glyph>

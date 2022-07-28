@@ -1,0 +1,51 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+feature kern {
+	lookup KERN_LTR  {
+	lookupflag IgnoreMarks;
+		pos n m 50;
+	lookupflag 0;
+	} KERN_LTR;
+
+	lookup KERN_LTR;
+} kern;
+
+feature aalt {
+# automatic
+feature sups;
+feature ordn;
+feature salt;
+feature ss01;
+} aalt;
+
+feature sups {
+# automatic
+sub one by uni00B9;
+sub two by uni00B2;
+sub three by uni00B3;
+} sups;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+
+feature salt {
+# automatic
+sub L by L.ss01;
+sub Lacute by Lacute.ss01;
+sub Lcaron by Lcaron.ss01;
+sub Lslash by Lslash.ss01;
+} salt;
+
+feature ss01 {
+# automatic
+sub L by L.ss01;
+sub Lacute by Lacute.ss01;
+sub Lcaron by Lcaron.ss01;
+sub Lslash by Lslash.ss01;
+} ss01;
+

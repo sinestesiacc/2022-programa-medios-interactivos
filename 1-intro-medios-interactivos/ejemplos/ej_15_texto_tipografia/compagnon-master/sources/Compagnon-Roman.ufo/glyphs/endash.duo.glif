@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash.duo" format="2">
+	<advance width="300"/>
+	<note>
+		endash.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="280" y="271" type="line"/>
+			<point x="20" y="271" type="line"/>
+			<point x="20" y="211" type="line"/>
+			<point x="280" y="211" type="line"/>
+		</contour>
+	</outline>
+</glyph>

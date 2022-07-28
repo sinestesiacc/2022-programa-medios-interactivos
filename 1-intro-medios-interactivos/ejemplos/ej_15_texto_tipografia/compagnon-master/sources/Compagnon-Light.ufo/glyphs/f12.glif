@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f12" format="2">
+	<advance width="600"/>
+	<note>
+		f12
+	</note>
+	<outline>
+		<contour>
+			<point x="459" y="542" type="line"/>
+			<point x="477" y="529" type="line"/>
+			<point x="126" y="39" type="line"/>
+			<point x="110" y="52" type="line"/>
+		</contour>
+	</outline>
+</glyph>

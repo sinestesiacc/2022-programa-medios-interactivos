@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotright.duo" format="2">
+	<advance width="300"/>
+	<note>
+		guillemotright.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="167" y="255" type="line"/>
+			<point x="86" y="444" type="line"/>
+			<point x="41" y="423" type="line"/>
+			<point x="56" y="367"/>
+			<point x="80" y="311"/>
+			<point x="115" y="255" type="curve"/>
+			<point x="80" y="199"/>
+			<point x="56" y="143"/>
+			<point x="41" y="87" type="curve"/>
+			<point x="86" y="66" type="line"/>
+		</contour>
+		<contour>
+			<point x="270" y="255" type="line"/>
+			<point x="189" y="444" type="line"/>
+			<point x="144" y="423" type="line"/>
+			<point x="159" y="367"/>
+			<point x="183" y="311"/>
+			<point x="218" y="255" type="curve"/>
+			<point x="183" y="199"/>
+			<point x="159" y="143"/>
+			<point x="144" y="87" type="curve"/>
+			<point x="189" y="66" type="line"/>
+		</contour>
+	</outline>
+</glyph>

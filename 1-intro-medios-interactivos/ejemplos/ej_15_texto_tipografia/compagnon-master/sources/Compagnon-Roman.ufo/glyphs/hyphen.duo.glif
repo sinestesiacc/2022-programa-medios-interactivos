@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen.duo" format="2">
+	<advance width="300"/>
+	<note>
+		hyphen.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="290" y="271" type="line"/>
+			<point x="10" y="271" type="line"/>
+			<point x="10" y="211" type="line"/>
+			<point x="290" y="211" type="line"/>
+		</contour>
+	</outline>
+</glyph>

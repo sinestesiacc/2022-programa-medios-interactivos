@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowup" format="2">
+	<advance width="600"/>
+	<unicode hex="2191"/>
+	<note>
+		arrowup
+	</note>
+	<outline>
+		<contour>
+			<point x="310" y="572" type="curve"/>
+			<point x="290" y="572" type="line"/>
+			<point x="250" y="489"/>
+			<point x="194" y="413"/>
+			<point x="118" y="371" type="curve"/>
+			<point x="135" y="349" type="line"/>
+			<point x="201" y="385"/>
+			<point x="265" y="459"/>
+			<point x="285" y="512" type="curve"/>
+			<point x="284" y="0" type="line"/>
+			<point x="314" y="0" type="line"/>
+			<point x="315" y="512" type="line"/>
+			<point x="335" y="459"/>
+			<point x="399" y="385"/>
+			<point x="465" y="349" type="curve"/>
+			<point x="482" y="371" type="line"/>
+			<point x="406" y="413"/>
+			<point x="350" y="489"/>
+		</contour>
+	</outline>
+</glyph>

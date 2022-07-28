@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="1">
+  <advance width="600"/>
+  <unicode hex="2122"/>
+  <note>
+    trademark
+  </note>
+  <outline>
+    <contour>
+      <point x="231" y="571" type="line"/>
+      <point x="157" y="571" type="line"/>
+      <point x="157" y="408" type="line"/>
+      <point x="208" y="408" type="line"/>
+      <point x="208" y="389" type="line"/>
+      <point x="87" y="389" type="line"/>
+      <point x="87" y="408" type="line"/>
+      <point x="138" y="408" type="line"/>
+      <point x="138" y="571" type="line"/>
+      <point x="64" y="571" type="line"/>
+      <point x="53" y="478" type="line"/>
+      <point x="34" y="480" type="line"/>
+      <point x="46" y="590" type="line"/>
+      <point x="249" y="590" type="line"/>
+      <point x="261" y="480" type="line"/>
+      <point x="242" y="478" type="line"/>
+    </contour>
+    <contour>
+      <point x="493" y="590" type="line"/>
+      <point x="566" y="590" type="line"/>
+      <point x="566" y="571" type="line"/>
+      <point x="519" y="571" type="line"/>
+      <point x="519" y="408" type="line"/>
+      <point x="566" y="408" type="line"/>
+      <point x="566" y="389" type="line"/>
+      <point x="464" y="389" type="line"/>
+      <point x="464" y="408" type="line"/>
+      <point x="500" y="408" type="line"/>
+      <point x="500" y="564" type="line"/>
+      <point x="432" y="432" type="line"/>
+      <point x="414" y="432" type="line"/>
+      <point x="346" y="564" type="line"/>
+      <point x="346" y="408" type="line"/>
+      <point x="382" y="408" type="line"/>
+      <point x="382" y="389" type="line"/>
+      <point x="280" y="389" type="line"/>
+      <point x="280" y="408" type="line"/>
+      <point x="327" y="408" type="line"/>
+      <point x="327" y="571" type="line"/>
+      <point x="280" y="571" type="line"/>
+      <point x="280" y="590" type="line"/>
+      <point x="353" y="590" type="line"/>
+      <point x="423" y="456" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

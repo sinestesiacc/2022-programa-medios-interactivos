@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brokenbar" format="1">
+  <advance width="614"/>
+  <unicode hex="00A6"/>
+  <note>
+    brokenbar
+  </note>
+  <outline>
+    <contour>
+      <point x="398.4" y="590.4" type="line"/>
+      <point x="367.2" y="590.4" type="line"/>
+      <point x="302.4" y="292.8" type="line"/>
+      <point x="333.6" y="292.8" type="line"/>
+    </contour>
+    <contour>
+      <point x="302.4" y="136.8" type="line"/>
+      <point x="271.2" y="136.8" type="line"/>
+      <point x="206.4" y="-160.8" type="line"/>
+      <point x="237.6" y="-160.8" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>258.215</real>
+          <key>x</key>
+          <real>326.4</real>
+          <key>y</key>
+          <real>397.2</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

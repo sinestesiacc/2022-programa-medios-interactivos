@@ -1,0 +1,144 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+feature ss01 {
+sub AE by AE.duo;
+sub I by I.duo;
+sub OE by OE.duo;
+sub W by W.duo;
+sub ae by ae.duo;
+sub i by i.duo;
+sub dotlessi by dotlessi.duo;
+sub iacute by iacute.duo;
+sub icircumflex by icircumflex.duo;
+sub idieresis by idieresis.duo;
+sub igrave by igrave.duo;
+sub j by j.duo;
+sub l by l.duo;
+sub lslash by lslash.duo;
+sub m by m.duo;
+sub oe by oe.duo;
+sub w by w.duo;
+sub one by one.duo;
+sub one.osf by one.osf.duo;
+sub asterisk by asterisk.duo;
+sub backslash by backslash.duo;
+sub periodcentered by periodcentered.duo;
+sub bullet by bullet.duo;
+sub colon by colon.duo;
+sub comma by comma.duo;
+sub ellipsis by ellipsis.duo;
+sub exclam by exclam.duo;
+sub exclamdown by exclamdown.duo;
+sub period by period.duo;
+sub quotesingle by quotesingle.duo;
+sub semicolon by semicolon.duo;
+sub slash by slash.duo;
+sub braceleft by braceleft.duo;
+sub braceright by braceright.duo;
+sub bracketleft by bracketleft.duo;
+sub bracketright by bracketright.duo;
+sub endash by endash.duo;
+sub hyphen by hyphen.duo;
+sub guillemotleft by guillemotleft.duo;
+sub guillemotright by guillemotright.duo;
+sub guilsinglleft by guilsinglleft.duo;
+sub quoteleft by quoteleft.duo;
+sub quoteright by quoteright.duo;
+sub space by space.duo;
+sub infinity by infinity.duo;
+sub perthousand by perthousand.duo;
+sub registered by registered.duo;
+sub uni2116 by uni2116.duo;
+sub t t by tt.duo;
+sub ft by ft.duo;
+sub T h by Th.duo;
+sub f b by fb.duo;
+sub f h by fh.duo;
+sub f f i by ffi.duo;
+sub f k by fk.duo;
+sub f t by ft.duo;
+sub ff by ff.duo;
+} ss01;
+
+feature aalt {
+# automatic
+feature ss01;
+feature numr;
+feature dnom;
+feature frac;
+feature ordn;
+feature onum;
+} aalt;
+
+feature numr {
+# automatic
+sub eight by eight.numr;
+sub five by five.numr;
+sub four by four.numr;
+sub nine by nine.numr;
+sub one by one.numr;
+sub seven by seven.numr;
+sub six by six.numr;
+sub three by three.numr;
+sub two by two.numr;
+sub zero by zero.numr;
+} numr;
+
+feature dnom {
+# automatic
+sub eight by eight.dnom;
+sub five by five.dnom;
+sub four by four.dnom;
+sub nine by nine.dnom;
+sub one by one.dnom;
+sub seven by seven.dnom;
+sub six by six.dnom;
+sub three by three.dnom;
+sub two by two.dnom;
+sub zero by zero.dnom;
+} dnom;
+
+feature frac {
+# automatic
+lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+
+feature onum {
+# automatic
+sub eight by eight.osf;
+sub five by five.osf;
+sub four by four.osf;
+sub nine by nine.osf;
+sub one by one.osf;
+sub seven by seven.osf;
+sub six by six.osf;
+sub three by three.osf;
+sub two by two.osf;
+sub zero by zero.osf;
+} onum;
+
+feature liga {
+sub f i by fi;
+sub f l by fl;
+sub f j by fj;
+sub f t by ft;
+sub f f by ff;
+} liga;
+

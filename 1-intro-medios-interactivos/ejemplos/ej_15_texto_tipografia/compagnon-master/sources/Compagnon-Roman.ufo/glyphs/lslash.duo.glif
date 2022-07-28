@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lslash.duo" format="2">
+	<advance width="300"/>
+	<note>
+		lslash.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="190" y="281" type="line"/>
+			<point x="281" y="325" type="line"/>
+			<point x="281" y="375" type="line"/>
+			<point x="190" y="331" type="line"/>
+			<point x="190" y="590" type="line"/>
+			<point x="49" y="590" type="line"/>
+			<point x="49" y="541" type="line"/>
+			<point x="140" y="541" type="line"/>
+			<point x="140" y="308" type="line"/>
+			<point x="49" y="264" type="line"/>
+			<point x="49" y="214" type="line"/>
+			<point x="140" y="258" type="line"/>
+			<point x="140" y="49" type="line"/>
+			<point x="49" y="49" type="line"/>
+			<point x="49" y="0" type="line"/>
+			<point x="281" y="0" type="line"/>
+			<point x="281" y="49" type="line"/>
+			<point x="190" y="49" type="line"/>
+		</contour>
+	</outline>
+</glyph>

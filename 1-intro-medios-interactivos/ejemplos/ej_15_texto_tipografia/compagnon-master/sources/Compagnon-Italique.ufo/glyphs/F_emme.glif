@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Femme" format="1">
+  <advance width="600"/>
+  <note>
+    Femme
+  </note>
+  <outline>
+    <contour>
+      <point x="315" y="147" type="line"/>
+      <point x="435" y="155"/>
+      <point x="529" y="253"/>
+      <point x="529" y="376" type="curve" smooth="yes"/>
+      <point x="529" y="501"/>
+      <point x="428" y="603"/>
+      <point x="301" y="603" type="curve" smooth="yes"/>
+      <point x="174" y="603"/>
+      <point x="72" y="501"/>
+      <point x="72" y="376" type="curve" smooth="yes"/>
+      <point x="72" y="253"/>
+      <point x="165" y="156"/>
+      <point x="285" y="148" type="curve"/>
+      <point x="285" y="70" type="line"/>
+      <point x="85" y="70" type="line"/>
+      <point x="85" y="40" type="line"/>
+      <point x="285" y="40" type="line"/>
+      <point x="285" y="-160" type="line"/>
+      <point x="315" y="-160" type="line"/>
+      <point x="315" y="40" type="line"/>
+      <point x="515" y="40" type="line"/>
+      <point x="515" y="70" type="line"/>
+      <point x="315" y="70" type="line"/>
+    </contour>
+    <contour>
+      <point x="102" y="376" type="curve" smooth="yes"/>
+      <point x="102" y="485"/>
+      <point x="190" y="573"/>
+      <point x="301" y="573" type="curve" smooth="yes"/>
+      <point x="410" y="573"/>
+      <point x="499" y="485"/>
+      <point x="499" y="376" type="curve" smooth="yes"/>
+      <point x="499" y="265"/>
+      <point x="410" y="177"/>
+      <point x="301" y="177" type="curve" smooth="yes"/>
+      <point x="190" y="177"/>
+      <point x="102" y="265"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

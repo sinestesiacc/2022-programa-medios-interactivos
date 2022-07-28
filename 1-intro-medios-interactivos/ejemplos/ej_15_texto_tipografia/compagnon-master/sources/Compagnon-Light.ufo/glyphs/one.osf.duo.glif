@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.osf.duo" format="2">
+	<advance width="300"/>
+	<note>
+		one.osf.duo
+	</note>
+	<outline>
+		<contour>
+			<point x="25" y="355" type="curve"/>
+			<point x="44" y="333" type="line"/>
+			<point x="127" y="404"/>
+			<point x="179" y="463"/>
+			<point x="217" y="534" type="curve"/>
+			<point x="217" y="0" type="line"/>
+			<point x="247" y="0" type="line"/>
+			<point x="247" y="590" type="line"/>
+			<point x="208" y="590" type="line"/>
+			<point x="166" y="497"/>
+			<point x="109" y="426"/>
+		</contour>
+	</outline>
+</glyph>
