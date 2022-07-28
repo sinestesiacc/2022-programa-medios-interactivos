@@ -21,7 +21,7 @@ hoy aprenderemos:
 - [ejemplos/ej_17_texto/](./ejemplos/ej_17_texto/)
 - [ejemplos/ej_18_texto_tamano/](./ejemplos/ej_18_texto_tamano/)
 - [ejemplos/ej_19_texto_tipografia/](./ejemplos/ej_19_texto_tipografia/)
-- [ej_20_texto_rotacion/](./ejemplos/ej_20_texto_rotacion/)
+- [ejemplos/ej_20_texto_rotacion/](./ejemplos/ej_20_texto_rotacion/)
 
 ## repaso clase pasada (15 min)
 
