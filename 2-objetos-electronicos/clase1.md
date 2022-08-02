@@ -67,7 +67,7 @@ Para el correcto uso de la placa Arduino con el chip CH340G, es necesario ademá
 
 http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
 
-## primer ejercicio y estructura de código
+## estructura de código
 
 Las funciones principales en Arduino IDE son setup() y draw(), acompañadas de una sessión inicial donde declaramos variables.
 
@@ -86,16 +86,15 @@ void loop() {
 }
 ```
 
-## segundo ejercicio, datos analógicos y condicionales
+## datos digitales y analógicos
 
 Datos digitales: valores de 1 o 0, dígito binario o bit (2 posibles valores)
 
 Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 
-Condicionales:
+## condicionales
 
 La información contenida en las llaves se ejecuta sólo al cumplir la condición 
-
 
 ```arduino
 if (datoLed <= 0) { // si el valor del dato llega a 0
@@ -106,4 +105,24 @@ if (datoLed <= 0) { // si el valor del dato llega a 0
   }
   datoLed = datoLed + brilloLed; // aumentar el brillo
   analogWrite(pinLed, datoLed); // escribir datos analogicos
+```
+
+## comunicación serial
+
+Información transmitida en dos direcciones 
+usando el puerto USB, un dato tras otro.
+
+
+
+Serial.begin (9600);  
+inicia comunicación serial
+
+Serial.println(datoSensor); 
+muestra datos recibidos en el monitor serie
+
+
+```arduino
+Serial.begin (9600);   // inicia comunicación serial
+
+Serial.println(datoSensor);  // muestra datos recibidos en el monitor serie
 ```
