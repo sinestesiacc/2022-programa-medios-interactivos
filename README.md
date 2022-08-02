@@ -24,7 +24,7 @@ Hay una carpeta por cada uno de los 5 módulos:
 
 ## Kit de materiales
 
-- ![kit-materiales](media/kit-materiales.jpg)
+![kit-materiales](media/kit-materiales.jpg)
 
 ## Tecnologías del curso
 
