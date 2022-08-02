@@ -69,6 +69,7 @@ http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.
 
 ## ejercicio 1: salida digital
 ![ejercicio 1](../media/objetos-electronicos/ej_01_salida_digital.jpg | width=200)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
 ## estructura de código
 
