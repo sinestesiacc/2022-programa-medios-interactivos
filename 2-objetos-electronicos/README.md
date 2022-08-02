@@ -9,7 +9,9 @@
 
 ## Software
 
-Este módulo se imparte con el software Arduino iDE, disponible para descarga en https://www.arduino.cc/
+Este módulo se imparte con el software Arduino iDE, disponible para descarga en: https://www.arduino.cc/
+
 En agosto 2022, usaremos la versión 1.8.19.
 
-Para el correcto uso de la placa Arduino con el chip CH340G, es necesario además instalar los drivers disponibles en http://www.wch-ic.com/downloads/CH341SER_ZIP.html
+Para el correcto uso de la placa Arduino con el chip CH340G, es necesario además instalar los drivers disponibles en:
+http://www.wch-ic.com/downloads/CH341SER_ZIP.html
