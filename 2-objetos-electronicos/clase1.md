@@ -64,6 +64,7 @@ Emisión, flujo y control de los electrones. La electrónica permite el procesam
 Trabajaremos con el software Arduino IDE, disponible para descarga en: https://www.arduino.cc/
 
 Para el correcto uso de la placa Arduino con el chip CH340G, es necesario además descargar e instalar los drivers disponibles en:
+
 http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
 
 ## primer ejercicio y estructura de código
@@ -88,9 +89,13 @@ void loop() {
 ## segundo ejercicio, datos analógicos y condicionales
 
 Datos digitales: valores de 1 o 0, dígito binario o bit (2 posibles valores)
+
 Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 
-Condicionales
+Condicionales:
+
+La información contenida en las llaves se ejecuta sólo al cumplir la condición 
+
 
 ```arduino
 if (datoLed <= 0) { // si el valor del dato llega a 0
