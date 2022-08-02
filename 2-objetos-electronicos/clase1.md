@@ -54,5 +54,8 @@ organizaciones:
 
 "Proceso cíclico en el que dos actores alternativamente escuchan, piensan y hablan." Chris Crawford, The Art of Interaction Design
 
-[escuchar > pensar > hablar] =       input > procesamiento > output
+[ escuchar > pensar > hablar ] = [ input > procesamiento > output ]
+
+## descargar Arduino y primer ejercicio
+
 
