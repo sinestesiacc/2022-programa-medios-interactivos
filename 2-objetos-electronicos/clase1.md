@@ -1,15 +1,15 @@
 # clase 1
 
-electrónica y programación con Arduino
+Electrónica y programación con Arduino
 
-jueves 4 agosto 2022
+Jueves 4 agosto 2022
 
-hoy aprenderemos:
+Hoy aprenderemos:
 
-- conceptos de interactividad física
-- introducción a Arduino y componentes electrónicos
-- programación en Arduino: Estructura y variables
-- control digital y analógico circuito LED
+- Conceptos de interactividad física
+- Introducción a Arduino y componentes electrónicos
+- Programación en Arduino: Estructura y variables
+- Control digital y analógico circuito LED
 
 ## enlaces a ejemplos de esta clase
 
@@ -19,17 +19,17 @@ hoy aprenderemos:
 
 ## programa y organización
 
-- organización: https://github.com/sinestesiacc
-- programa: https://github.com/sinestesiacc/2022-programa-medios-interactivos/
-- berlin code of conduct: https://berlincodeofconduct.org/es/
+- Organización: https://github.com/sinestesiacc
+- Programa: https://github.com/sinestesiacc/2022-programa-medios-interactivos/
+- Berlin code of conduct: https://berlincodeofconduct.org/es/
 
 ## presentación de profesor y estudiantes
 
-direcciones web:
+Direcciones web:
 
-- studio Sergio Mora-Diaz https://www.sergiomoradiaz.com/ 
+- Studio Sergio Mora-Diaz https://www.sergiomoradiaz.com/ 
 
-organizaciones:
+Organizaciones:
 
 - Sinestesia Think and Do Tank https://www.sinestesia.cc/
 - NYU ITP https://tisch.nyu.edu/itp
@@ -66,7 +66,7 @@ Trabajaremos con el software Arduino IDE, disponible para descarga en: https://w
 Para el correcto uso de la placa Arduino con el chip CH340G, es necesario además descargar e instalar los drivers disponibles en:
 http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
 
-## estructura de código
+## primer ejercicio y estructura de código
 
 Las funciones principales en Arduino IDE son setup() y draw(), acompañadas de una sessión inicial donde declaramos variables.
 
@@ -83,4 +83,22 @@ void loop() {
   // comportamiento
   digitalWrite(pinLed, HIGH); // encender el led
 }
+```
+
+## segundo ejercicio, datos analógicos y condicionales
+
+Datos digitales: valores de 1 o 0, dígito binario o bit (2 posibles valores)
+Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
+
+Condicionales
+
+```arduino
+if (datoLed <= 0) { // si el valor del dato llega a 0
+    brilloLed = 1; // aumenta dimmer
+  }
+  if (datoLed >= 255) { // si el valor del dato llega a 255
+    brilloLed = -1; // disminuye dimmer
+  }
+  datoLed = datoLed + brilloLed; // aumentar el brillo
+  analogWrite(pinLed, datoLed); // escribir datos analogicos
 ```
