@@ -11,6 +11,7 @@
 ## Profesores
 
 Profesor: Sergio Mora-Diaz
+
 Ayudante: Katia Montes
 
 ## Software
