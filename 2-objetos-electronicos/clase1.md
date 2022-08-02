@@ -43,9 +43,17 @@ organizaciones:
 - Derivative TouchDesiner https://derivative.ca/
 - MadMapper https://madmapper.com/
 
+## referentes y casos de estudio
 
+- Golan Levin http://www.flong.com/
+- Jen Lewin Studio https://www.jenlewinstudio.com/
+- Danny Rozin http://www.smoothware.com/danny/
+- Rafael Lozano-Hemmer https://www.lozano-hemmer.com/
 
+## interacción 
 
+"Proceso cíclico en el que dos actores alternativamente escuchan, piensan y hablan."
+- Chris Crawford, The Art of Interaction Design
 
-
+escuchar > pensar > hablar = iput > procesamiento > output
 
