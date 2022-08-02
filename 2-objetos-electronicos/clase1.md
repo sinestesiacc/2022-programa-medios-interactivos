@@ -52,8 +52,8 @@ organizaciones:
 
 ## interacción 
 
-"Proceso cíclico en el que dos actores alternativamente escuchan, piensan y hablan."
-- Chris Crawford, The Art of Interaction Design
+"Proceso cíclico en el que dos actores alternativamente escuchan, piensan y hablan." Chris Crawford, The Art of Interaction Design
 
-escuchar > pensar > hablar = iput > procesamiento > output
+escuchar > pensar > hablar
+iput > procesamiento > output
 
