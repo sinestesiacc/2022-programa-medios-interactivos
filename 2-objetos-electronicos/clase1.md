@@ -100,29 +100,27 @@ La información contenida en las llaves se ejecuta sólo al cumplir la condició
 if (datoLed <= 0) { // si el valor del dato llega a 0
     brilloLed = 1; // aumenta dimmer
   }
-  if (datoLed >= 255) { // si el valor del dato llega a 255
+else if (datoLed >= 255) { // si el valor del dato llega a 255
     brilloLed = -1; // disminuye dimmer
   }
-  datoLed = datoLed + brilloLed; // aumentar el brillo
-  analogWrite(pinLed, datoLed); // escribir datos analogicos
 ```
 
 ## comunicación serial
 
-Información transmitida en dos direcciones 
-usando el puerto USB, un dato tras otro.
-
-
-
-Serial.begin (9600);  
-inicia comunicación serial
-
-Serial.println(datoSensor); 
-muestra datos recibidos en el monitor serie
-
+Información transmitida en dos direcciones  usando el puerto USB, un dato tras otro.
 
 ```arduino
 Serial.begin (9600);   // inicia comunicación serial
 
 Serial.println(datoSensor);  // muestra datos recibidos en el monitor serie
 ```
+
+## mapeo de valores
+
+```arduino
+datoLed = map(datoSensor, 0, 1023, 0, 255); // mapeo de datos
+analogWrite(pinLed, datoLed); // escribir datos en el led
+```
+
+0 a 1023 es el rango analógico máximo que entrega un sensor (10 bits).
+0 a 255 es el rango de intensidad de brillo de un led, en escala RGB (8 bits).
