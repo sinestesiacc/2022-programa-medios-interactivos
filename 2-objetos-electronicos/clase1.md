@@ -50,15 +50,36 @@ organizaciones:
 - Danny Rozin http://www.smoothware.com/danny/
 - Rafael Lozano-Hemmer https://www.lozano-hemmer.com/
 
-## interacción 
+## interacción y electrónica
 
-"Proceso cíclico en el que dos actores alternativamente escuchan, piensan y hablan." Chris Crawford, The Art of Interaction Design
+- Interacción:
+
+Proceso cíclico en el que dos actores alternativamente escuchan, piensan y hablan. (Chris Crawford, The Art of Interaction Design)
 
 [ escuchar > pensar > hablar ] = [ input > procesamiento > output ]
 
-## descargar Arduino y primer ejercicio
+- Electrónica
+
+Emisión, flujo y control de los electrones.
+
+La electrónica permite el procesamiento digital de la información por la capacidad de los dispositivos de actuar como interruptores.
+
+ENERGIA
+LUZ / SONIDO / MOVIMIENTO = ELECTRICIDAD
+
++
+
+INFORMACION
+VALORES / TEXTO / DATOS  = BITS
+
+
+## descargar Arduino IDE y conectar placa
 
 Trbajaremos con el software Arduino IDE, disponible para descarga en: https://www.arduino.cc/
 
 Para el correcto uso de la placa Arduino con el chip CH340G, es necesario además descargar e instalar los drivers disponibles en:
 http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
+
+
+
+## estructura de código
