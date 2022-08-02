@@ -7,6 +7,12 @@
 - [clase3.md](clase3.md): jueves 18 de agosto
 - [ejemplos/](ejemplos/): carpeta con los ejemplos de código.
 
+
+## Profesores
+
+Profesor: Sergio Mora-Diaz
+Ayudante: Katia Montes
+
 ## Software
 
 Este módulo se imparte con el software Arduino IDE, disponible para descarga en: https://www.arduino.cc/
