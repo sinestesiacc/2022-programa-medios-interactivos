@@ -74,11 +74,16 @@ http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.
 Las funciones principales en Arduino IDE son setup() y draw(), acompañadas de una sessión inicial donde declaramos variables.
 
 ```arduino
+// declarar variables
+int pinLed = 13; // led conectado en pin 13
+
 void setup() {
-  size(500, 500);
+  // configuracion
+  pinMode(pinLed, OUTPUT); // configurar pin como salida
 }
 
-void draw() {
-  ellipse(250, 250, 100, 100);
+void loop() {
+  // comportamiento
+  digitalWrite(pinLed, HIGH); // encender el led
 }
 ```
