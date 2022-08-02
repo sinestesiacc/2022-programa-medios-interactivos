@@ -68,7 +68,8 @@ Para el correcto uso de la placa Arduino con el chip CH340G, es necesario ademá
 http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
 
 ## ejercicio 1: salida digital
-<img src="../media/objetos-electronicos/ej_01_salida_digital.jpg" width="400">
+
+<img src="../media/objetos-electronicos/ej_01_salida_digital.jpg" width="500">
 
 
 ## estructura de código
@@ -92,6 +93,8 @@ void loop() {
 
 ## ejercicio 2: salida analógica
 
+<img src="../media/objetos-electronicos/ej_02_salida_analogica.jpg" width="500">
+
 ## datos digitales y analógicos
 
 Datos digitales: valores de 1 o 0, dígito binario o bit (2 posibles valores)
@@ -112,6 +115,8 @@ else if (datoLed >= 255) { // si el valor del dato llega a 255
 ```
 
 ## ejercicio 3: entrada y salida analógica (potenciómetro)
+
+<img src="../media/objetos-electronicos/ej_03_entrada_analogica_pot.jpg" width="500">
 
 ## comunicación serial
 
@@ -135,3 +140,6 @@ analogWrite(pinLed, datoLed); // escribir datos en el led
 0 a 255 es el rango de intensidad de brillo de un led, en escala RGB (8 bits).
 
 ## ejercicio 4: entrada y salida analógica (sensor de luz o LDR)
+
+<img src="../media/objetos-electronicos/ej_04_entrada_analogica_ldr.jpg" width="500">
+
