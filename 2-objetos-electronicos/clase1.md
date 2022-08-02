@@ -68,6 +68,7 @@ Para el correcto uso de la placa Arduino con el chip CH340G, es necesario ademá
 http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
 
 ## ejercicio 1: salida digital
+[kit-materiales](media/kit-materiales.jpg)
 
 ## estructura de código
 
