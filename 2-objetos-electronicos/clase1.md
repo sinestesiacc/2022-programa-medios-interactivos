@@ -123,4 +123,5 @@ analogWrite(pinLed, datoLed); // escribir datos en el led
 ```
 
 0 a 1023 es el rango analógico máximo que entrega un sensor (10 bits).
+
 0 a 255 es el rango de intensidad de brillo de un led, en escala RGB (8 bits).
