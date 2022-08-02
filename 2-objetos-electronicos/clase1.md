@@ -58,4 +58,7 @@ organizaciones:
 
 ## descargar Arduino y primer ejercicio
 
+Trbajaremos con el software Arduino IDE, disponible para descarga en: https://www.arduino.cc/
 
+Para el correcto uso de la placa Arduino con el chip CH340G, es necesario además descargar e instalar los drivers disponibles en:
+http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
