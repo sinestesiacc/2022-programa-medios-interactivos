@@ -13,12 +13,10 @@ hoy aprenderemos:
 
 ## enlaces a ejemplos de esta clase
 
-- [ejemplos/ej_00_primera_elipse/](./ejemplos/ej_00_primera_elipse/)
-- [ejemplos/ej_01_colores_lienzo_fondo/](./ejemplos/ej_01_colores_lienzo_fondo/)
-- [ejemplos/ej_02_puntos_lineas/](./ejemplos/ej_02_puntos_lineas/)
-- [ejemplos/ej_03_elipse_rectangulo/](./ejemplos/ej_03_elipse_rectangulo/)
-- [ejemplos/ej_04_bordes_rellenos/](./ejemplos/ej_04_bordes_rellenos/)
-- [ejemplos/ej_05_condicionales/](./ejemplos/ej_05_condicionales/)
+- [ejemplos/ej_01_salida_digital/](./ejemplos/ej_01_salida_digital/)
+- [ejemplos/ej_02_salida_analogica/](./ejemplos/ej_salida_analogica/)
+- [ejemplos/ej_03_entrada_analogica_potenciometro/](./ejemplos/ej_03_entrada_analogica_potenciometro/)
+- [ejemplos/ej_04_entrada_analogica_ldr/](./ejemplos/ej_04_entrada_analogica_ldr/)
 
 ## programa y organización
 
