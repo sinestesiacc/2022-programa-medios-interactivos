@@ -15,8 +15,7 @@ hoy aprenderemos:
 
 - [ejemplos/ej_01_salida_digital/](./ejemplos/ej_01_salida_digital/)
 - [ejemplos/ej_02_salida_analogica/](./ejemplos/ej_salida_analogica/)
-- [ejemplos/ej_03_entrada_analogica_potenciometro/](./ejemplos/ej_03_entrada_analogica_potenciometro/)
-- [ejemplos/ej_04_entrada_analogica_ldr/](./ejemplos/ej_04_entrada_analogica_ldr/)
+- [ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica_potenciometro/)
 
 ## programa y organización
 
