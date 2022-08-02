@@ -60,26 +60,25 @@ Proceso cíclico en el que dos actores alternativamente escuchan, piensan y habl
 
 - Electrónica
 
-Emisión, flujo y control de los electrones.
-
-La electrónica permite el procesamiento digital de la información por la capacidad de los dispositivos de actuar como interruptores.
-
-ENERGIA
-LUZ / SONIDO / MOVIMIENTO = ELECTRICIDAD
-
-+
-
-INFORMACION
-VALORES / TEXTO / DATOS  = BITS
-
+Emisión, flujo y control de los electrones. La electrónica permite el procesamiento digital de la información por la capacidad de los dispositivos de actuar como interruptores.
 
 ## descargar Arduino IDE y conectar placa
 
-Trbajaremos con el software Arduino IDE, disponible para descarga en: https://www.arduino.cc/
+Trabajaremos con el software Arduino IDE, disponible para descarga en: https://www.arduino.cc/
 
 Para el correcto uso de la placa Arduino con el chip CH340G, es necesario además descargar e instalar los drivers disponibles en:
 http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html (Mac).
 
-
-
 ## estructura de código
+
+Las funciones principales en Arduino IDE son setup() y draw(), acompañadas de una sessión inicial donde declaramos variables.
+
+```arduino
+void setup() {
+  size(500, 500);
+}
+
+void draw() {
+  ellipse(250, 250, 100, 100);
+}
+```
