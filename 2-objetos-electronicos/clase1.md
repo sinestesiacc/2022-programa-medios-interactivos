@@ -96,7 +96,7 @@ void loop() {
 
 <img src="../media/objetos-electronicos/ej_02_salida_analogica.jpg" width="500">
 
-[ejemplos/ej_02_salida_analogica/](./ejemplos/ej02_salida_analogica/)
+[ejemplos/ej_02_salida_analogica/](./ejemplos/ej_02_salida_analogica/)
 
 ## datos digitales y analógicos
 
@@ -121,6 +121,8 @@ else if (datoLed >= 255) { // si el valor del dato llega a 255
 
 <img src="../media/objetos-electronicos/ej_03_entrada_analogica_pot.jpg" width="500">
 
+[ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica/)
+ 
 ## comunicación serial
 
 Información transmitida en dos direcciones  usando el puerto USB, un dato tras otro.
@@ -146,3 +148,4 @@ analogWrite(pinLed, datoLed); // escribir datos en el led
 
 <img src="../media/objetos-electronicos/ej_04_entrada_analogica_ldr.jpg" width="500">
 
+[ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica/)
