@@ -14,8 +14,8 @@ Hoy aprenderemos:
 ## enlaces a ejemplos de esta clase
 
 - [ejemplos/ej_01_salida_digital/](./ejemplos/ej_01_salida_digital/)
-- [ejemplos/ej_02_salida_analogica/](./ejemplos/ej_salida_analogica/)
-- [ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica_potenciometro/)
+- [ejemplos/ej_02_salida_analogica/](./ejemplos/ej02_salida_analogica/)
+- [ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica/)
 
 ## programa y organización
 
@@ -95,6 +95,8 @@ void loop() {
 ## ejercicio 2: salida analógica
 
 <img src="../media/objetos-electronicos/ej_02_salida_analogica.jpg" width="500">
+
+[ejemplos/ej_02_salida_analogica/](./ejemplos/ej02_salida_analogica/)
 
 ## datos digitales y analógicos
 
