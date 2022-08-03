@@ -71,7 +71,7 @@ http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.
 
 <img src="../media/objetos-electronicos/ej_01_salida_digital.jpg" width="500">
 
-../2-objetos-electronicos/ejemplos/ej_01_salida_digital/ej_01_salida_digital.ino
+[ejemplos/ej_01_salida_digital/](./ejemplos/ej_01_salida_digital/)
 
 ## estructura de código
 
