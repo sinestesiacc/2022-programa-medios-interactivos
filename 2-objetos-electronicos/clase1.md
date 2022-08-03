@@ -14,7 +14,7 @@ Hoy aprenderemos:
 ## enlaces a ejemplos de esta clase
 
 - [ejemplos/ej_01_salida_digital/](./ejemplos/ej_01_salida_digital/)
-- [ejemplos/ej_02_salida_analogica/](./ejemplos/ej02_salida_analogica/)
+- [ejemplos/ej_02_salida_analogica/](./ejemplos/ej_02_salida_analogica/)
 - [ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica/)
 
 ## programa y organización
