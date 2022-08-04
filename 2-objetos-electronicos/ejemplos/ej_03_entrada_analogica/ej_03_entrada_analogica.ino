@@ -23,6 +23,6 @@ void loop() {
   datoSensor = analogRead(pinSensor); // leer y almacenar datos
   Serial.println(datoSensor); // ver datos en monitor
 
-  datoLed = map(datoSensor, 1023, 800, 0, 255); // mapeo de valores
+  datoLed = map(datoSensor, 0, 1023, 0, 255); // mapeo de valores
   analogWrite(pinLed, datoLed); // escribir datos analogicos
 }
