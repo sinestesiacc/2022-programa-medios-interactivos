@@ -79,16 +79,16 @@ Las funciones principales en Arduino IDE son setup() y draw(), acompañadas de u
 
 ```arduino
 // declarar variables
-int pinLed = 13; // led conectado en pin 13
+int pinLed = 2; // led en pin 2
 
 void setup() {
   // configuracion
-  pinMode(pinLed, OUTPUT); // configurar pin como salida
+  pinMode(pinLed, OUTPUT); // pin en modo salida
 }
 
 void loop() {
   // comportamiento
-  digitalWrite(pinLed, HIGH); // encender el led
+  digitalWrite(pinLed, HIGH); // encender led
 }
 ```
 
@@ -109,12 +109,12 @@ Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 La información contenida en las llaves se ejecuta sólo al cumplir la condición 
 
 ```arduino
-if (datoLed <= 0) { // si el valor del dato llega a 0
-    brilloLed = 1; // aumenta dimmer
-  }
-else if (datoLed >= 255) { // si el valor del dato llega a 255
-    brilloLed = -1; // disminuye dimmer
-  }
+if (datoLed <= 0) { // si el dato llega a 0
+  cambioLed = 1; // cambio positivo
+}
+if (datoLed >= 255) { // si el dato llega a 255
+  cambioLed = -1; // cambio negativo
+}
 ```
 
 ## ejercicio 3: entrada y salida analógica (potenciómetro)
@@ -128,24 +128,18 @@ else if (datoLed >= 255) { // si el valor del dato llega a 255
 Información transmitida en dos direcciones  usando el puerto USB, un dato tras otro.
 
 ```arduino
-Serial.begin (9600);   // inicia comunicación serial
+Serial.begin (9600); // iniciar comunicacion serial
 
-Serial.println(datoSensor);  // muestra datos recibidos en el monitor serie
+Serial.println(datoSensor); // ver datos en monitor
 ```
 
 ## mapeo de valores
 
 ```arduino
-datoLed = map(datoSensor, 0, 1023, 0, 255); // mapeo de datos
-analogWrite(pinLed, datoLed); // escribir datos en el led
+datoLed = map(datoSensor, 0, 1023, 0, 255); // mapeo de valores
+analogWrite(pinLed, datoLed); // escribir datos analogicos
 ```
 
 0 a 1023 es el rango analógico máximo que entrega un sensor (10 bits).
 
 0 a 255 es el rango de intensidad de brillo de un led, en escala RGB (8 bits).
-
-## ejercicio 4: entrada y salida analógica (sensor de luz o LDR)
-
-<img src="../media/objetos-electronicos/ej_04_entrada_analogica_ldr.jpg" width="500">
-
-[ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica/)

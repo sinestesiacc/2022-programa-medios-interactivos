@@ -1,32 +1,28 @@
+// ej_03_entrada_analogica
+// por sergiomoradiaz
+// para Academia Sinestesia
+// Programa de Medios Interactivos 2022
+// v0.0.1 agosto 2022
+// hecho con Arduino 1.8.19
+
 // declarar variables
-int pinLed = 3; // led conectado en pin 3
-int datoLed; // variable de datos para escribir en led
+int pinLed = 3; // led en pin 3
+int datoLed; // variable para escribir datos en led
 int pinSensor = A0; // sensor en pin A0
-int datoSensor; // variable que almacena datos
+int datoSensor; // variable para leer datos de sensor
 
 void setup() {
   // configuracion
-  pinMode(pinLed, OUTPUT); // configurar pin como salida
-  pinMode(pinSensor, INPUT); // configurar pin como entrada
+  pinMode(pinLed, OUTPUT); // pin en modo salida
+  pinMode(pinSensor, INPUT); // pin en modo entrada
   Serial.begin(9600); // iniciar comunicacion serial
 }
 
 void loop() {
- // comportamiento
+  // comportamiento
   datoSensor = analogRead(pinSensor); // leer y almacenar datos
-  Serial.println(datoSensor); // visualizar datos en monitor serie
+  Serial.println(datoSensor); // ver datos en monitor
 
-  // OPCION 1: MAPEO DE VALORES
-   datoLed = map(datoSensor, 1023, 800, 0, 255); // mapeo de valores   
-   analogWrite(pinLed, datoLed); // escribir datos analogicos
-
-  // OPCION 2: CONDICIONALES
-  /*
-  if (datoSensor >= 60){          // si el dato es mayor o igual a 60
-    digitalWrite(pinLed, HIGH);   // encender led
-  } else if (datoSensor < 60){    // si el dato es menor a 60
-    digitalWrite(pinLed, LOW);    // apagar led
-  }
-  */
-
+  datoLed = map(datoSensor, 0, 1023, 0, 255); // mapeo de valores
+  analogWrite(pinLed, datoLed); // escribir datos analogicos
 }

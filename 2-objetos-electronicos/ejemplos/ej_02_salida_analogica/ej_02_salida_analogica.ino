@@ -1,4 +1,4 @@
-// ej_01_salida_digital
+// ej_02_salida_analogica
 // por sergiomoradiaz
 // para Academia Sinestesia
 // Programa de Medios Interactivos 2022
@@ -6,24 +6,24 @@
 // hecho con Arduino 1.8.19
 
 // declarar variables
-int pinLed = 3; // led conectado en pin 3
-int datoLed; // variable de datos para escribir en led
-int brilloLed; // factor de cambio analogico o dimmer
+int pinLed = 3; // led en pin 3
+int datoLed; // variable para escribir datos en led
+int cambioLed; // variable para factor de cambio
 
 void setup() {
   // configuracion
-  pinMode(pinLed, OUTPUT); // configurar pin como salida
+  pinMode(pinLed, OUTPUT); // pin en modo salida
 }
 
 void loop() {
   // comportamiento
-  if (datoLed <= 0) { // si el valor del dato llega a 0
-    brilloLed = 1; // aumentar dimmer
+  if (datoLed <= 0) { // si el dato llega a 0
+    cambioLed = 1; // cambio positivo
   }
-  if (datoLed >= 255) { // si el valor del dato llega a 255
-    brilloLed = -1; // disminuir dimmer
+  if (datoLed >= 255) { // si el dato llega a 255
+    cambioLed = -1; // cambio negativo
   }
-  datoLed = datoLed + brilloLed; // aumentar el brillo
+  datoLed = datoLed + cambioLed; // modificar datos analogicos
   analogWrite(pinLed, datoLed); // escribir datos analogicos
-  delay(5); // tiempo de espera en milisegundos
+  delay(5); // espera en milisegundos
 }
