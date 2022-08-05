@@ -91,33 +91,13 @@ void loop() {
   digitalWrite(pinLed, HIGH); // encender led
 }
 ```
-
-## ejercicio 2: salida analógica
-
-<img src="../media/objetos-electronicos/ej_02_salida_analogica.jpg" width="500">
-
-[ejemplos/ej_02_salida_analogica/](./ejemplos/ej_02_salida_analogica/)
-
 ## datos digitales y analógicos
 
 Datos digitales: valores de 1 o 0, dígito binario o bit (2 posibles valores)
 
 Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 
-## condicionales
-
-La información contenida en las llaves se ejecuta sólo al cumplir la condición 
-
-```arduino
-if (datoLed <= 0) { // si el dato llega a 0
-  cambioLed = 1; // cambio positivo
-}
-if (datoLed >= 255) { // si el dato llega a 255
-  cambioLed = -1; // cambio negativo
-}
-```
-
-## ejercicio 3: entrada y salida analógica (potenciómetro)
+## ejercicio 2: entrada y salida analógica (potenciómetro)
 
 <img src="../media/objetos-electronicos/ej_03_entrada_analogica_pot.jpg" width="500">
 
@@ -143,3 +123,16 @@ analogWrite(pinLed, datoLed); // escribir datos analogicos
 0 a 1023 es el rango analógico máximo que entrega un sensor (10 bits).
 
 0 a 255 es el rango de intensidad de brillo de un led, en escala RGB (8 bits).
+
+## condicionales
+
+La información contenida en las llaves se ejecuta sólo al cumplir la condición 
+
+```arduino
+if (datoLed <= 0) { // si el dato llega a 0
+  cambioLed = 1; // cambio positivo
+}
+if (datoLed >= 255) { // si el dato llega a 255
+  cambioLed = -1; // cambio negativo
+}
+```
