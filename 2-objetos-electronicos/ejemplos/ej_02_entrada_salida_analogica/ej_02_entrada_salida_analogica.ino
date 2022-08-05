@@ -1,4 +1,4 @@
-// ej_03_entrada_analogica
+// ej_02_entrada_salida_analogica
 // por sergiomoradiaz
 // para Academia Sinestesia
 // Programa de Medios Interactivos 2022
@@ -15,7 +15,7 @@ void setup() {
   // configuracion
   pinMode(pinLed, OUTPUT); // pin en modo salida
   pinMode(pinSensor, INPUT); // pin en modo entrada
-  Serial.begin(9600); // iniciar comunicacion serial
+  Serial.begin (9600); // iniciar comunicacion serial
 }
 
 void loop() {
