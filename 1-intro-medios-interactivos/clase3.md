@@ -14,7 +14,7 @@ hoy aprenderemos:
 
 ## enlaces a ejemplos de esta clase
 
-- [ej_13_cargar_imagen/](./ejemplos/ej_13_cargar_imagen/)
+- [ejemplos/ej_13_cargar_imagen/](./ejemplos/ej_13_cargar_imagen/)
 - [ejemplos/ej_14_procesar_imagen/](./ejemplos/ej_14_procesar_imagen/)
 - [ejemplos/ej_15_puntillismo_imagen/](./ejemplos/ej_15_puntillismo_imagen/)
 - [ejemplos/ej_16_repetir_imagen/](./ejemplos/ej_16_repetir_imagen/)
