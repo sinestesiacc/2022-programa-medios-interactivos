@@ -14,8 +14,7 @@ Hoy aprenderemos:
 ## enlaces a ejemplos de esta clase
 
 - [ejemplos/ej_01_salida_digital/](./ejemplos/ej_01_salida_digital/)
-- [ejemplos/ej_02_salida_analogica/](./ejemplos/ej_02_salida_analogica/)
-- [ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica/)
+- [ejemplos/ej_02_entrada_salida_analogica/](./ejemplos/ej_02_entrada_salida_analogica/)
 
 ## programa y organización
 
@@ -99,9 +98,9 @@ Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 
 ## ejercicio 2: entrada y salida analógica (potenciómetro)
 
-<img src="../media/objetos-electronicos/ej_03_entrada_analogica_pot.jpg" width="500">
+<img src="../media/objetos-electronicos/ej_02_entrada_salida_analogica_pot.jpg" width="500">
 
-[ejemplos/ej_03_entrada_analogica/](./ejemplos/ej_03_entrada_analogica/)
+[ejemplos/ej_02_entrada_salida_analogica/](./ejemplos/ej_02_entrada_salida_analogica/)
  
 ## comunicación serial
 
