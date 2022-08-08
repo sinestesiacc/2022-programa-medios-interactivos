@@ -13,21 +13,21 @@ hoy aprenderemos:
 
 ## bibliotecas y lenguajes de sonido digital (15 min)
 
-- Bela
-- ChucK
-- Csound
-- FoxDot
-- Max
-- Mozzi
-- p5.js sound
-- Processing Sound
-- Pure Data
-- Sonic Pi
-- SuperCollider
-- Teensy
-- Tidalcycles
+- Bela https://bela.io/
+- ChucK https://chuck.cs.princeton.edu/
+- Csound https://csound.com/
+- FoxDot https://foxdot.org/
+- Cycling74 Max https://cycling74.com/
+- Mozzi https://sensorium.github.io/Mozzi/
+- p5.js sound https://github.com/processing/p5.js-sound
+- Processing Sound https://github.com/processing/processing-sound
+- Pure Data https://puredata.info/
+- Sonic Pi https://sonic-pi.net/
+- SuperCollider https://supercollider.github.io/
+- PJRC Teensy https://www.pjrc.com/
+- TidalCycles https://tidalcycles.org/
 
-## biblioteca Sound de Processing (15 min)
+## biblioteca Processing Sound (15 min)
 
 en este curso usaremos la biblioteca de sonido de Processing, que debemos instalar de la siguiente manera.
 
