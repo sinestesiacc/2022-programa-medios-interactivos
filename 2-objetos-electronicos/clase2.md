@@ -16,7 +16,7 @@ Hoy aprenderemos:
 
 - [ejemplos/ej_03_rgb_digital/](./ejemplos/ej_03_rgb_digital/)
 - [ejemplos/ej_04_rgb_analogico/](./ejemplos/ej_04_rgb_analogico/)
-- [ejemplos/ej_04_rgb_ultrasonido/](./ejemplos/ej_04_rgb_ultrasonido/)
+- [ejemplos/ej_05_rgb_ultrasonido/](./ejemplos/ej_05_rgb_ultrasonido/)
 
 ## datos digitales y analógicos
 
@@ -28,26 +28,26 @@ Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 
 Permite variar tiempo de una señal digital con estado alto o bajo (5V o 0V) para controlar la cantidad de corriente que se entrega a los dispositivos, emulando una señal analógica.
 
-<img src="../media/objetos-electronicos/ej_02_entrada_salida_analogica_pot.jpg" width="500">
+<img src="../media/objetos-electronicos/pwm.jpg" width="500">
 
-## ejercicio 2: entrada y salida analógica (potenciómetro)
+## ejercicio 3: entrada y salida analógica (potenciómetro)
 
-<img src="../media/objetos-electronicos/ej_02_entrada_salida_analogica_pot.jpg" width="500">
+<img src="../media/objetos-electronicos/ej_03_rgb_digital_ldr.jpg" width="500">
 
-[ejemplos/ej_02_entrada_salida_analogica/](./ejemplos/ej_02_entrada_salida_analogica/)
+[ejemplos/ej_03_rgb_digital/](./ejemplos/ej_03_rgb_digital/)
 
 
-## ejercicio 2: entrada y salida analógica (potenciómetro)
+## ejercicio 4: entrada y salida analógica (potenciómetro)
 
-<img src="../media/objetos-electronicos/ej_02_entrada_salida_analogica_pot.jpg" width="500">
+<img src="../media/objetos-electronicos/ej_ej_04_rgb_analogico_sonido.jpg" width="500">
 
-[ejemplos/ej_02_entrada_salida_analogica/](./ejemplos/ej_02_entrada_salida_analogica/)
+[ejemplos/ej_04_rgb_analogico/](./ejemplos/ej_04_rgb_analogico/)
 
-## ejercicio 2: entrada y salida analógica (potenciómetro)
+## ejercicio 5: entrada y salida analógica (potenciómetro)
 
-<img src="../media/objetos-electronicos/ej_02_entrada_salida_analogica_pot.jpg" width="500">
+<img src="../media/objetos-electronicos/ej_05_rgb_ultrasonido.jpg" width="500">
 
-[ejemplos/ej_02_entrada_salida_analogica/](./ejemplos/ej_02_entrada_salida_analogica/)
+[ejemplos/ej_05_rgb_ultrasonido/](./ejemplos/ej_05_rgb_ultrasonido/)
 
 ## lectura de datos de pulso
 
