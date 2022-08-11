@@ -28,7 +28,7 @@ Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 
 Permite variar tiempo de una señal digital con estado alto o bajo (5V o 0V) para controlar la cantidad de corriente que se entrega a los dispositivos, emulando una señal analógica.
 
-<img src="../media/objetos-electronicos/pwm.jpg" width="500">
+<img src="../media/objetos-electronicos/pwm.jpg" width="700">
 
 ## ejercicio 3: entrada y salida analógica (potenciómetro)
 
@@ -39,7 +39,7 @@ Permite variar tiempo de una señal digital con estado alto o bajo (5V o 0V) par
 
 ## ejercicio 4: entrada y salida analógica (potenciómetro)
 
-<img src="../media/objetos-electronicos/ej_ej_04_rgb_analogico_sonido.jpg" width="500">
+<img src="../media/objetos-electronicos/ej_04_rgb_analogico_sonido.jpg" width="500">
 
 [ejemplos/ej_04_rgb_analogico/](./ejemplos/ej_04_rgb_analogico/)
 
