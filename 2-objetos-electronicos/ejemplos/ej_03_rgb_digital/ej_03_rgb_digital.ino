@@ -8,9 +8,9 @@
 // declarar variables
 int pinSensor = 12; // sensor en pin 12
 int datoSensor; // variable para almacenar datos de sensor
-int pinR = 6; // led R en pin 3
+int pinR = 6; // led R en pin 6
 int pinG = 5; // led G en pin 5
-int pinB = 3; // led B en pin 6
+int pinB = 3; // led B en pin 3
 int datoR; // variable para escribir datos en R
 int datoG; // variable para escribir datos en G
 int datoB; // variable para escribir datos en B
