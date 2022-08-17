@@ -28,9 +28,9 @@ Hoy aprenderemos:
 
 ## ejercicio 7: motor servo y entrada por pulsos (sensor de proximidad)
 
-<img src="../media/objetos-electronicos/ej_07_servo_ultrasonido.jpg.jpg" width="500">
+<img src="../media/objetos-electronicos/ej_07_servo_ultrasonido.jpg" width="500">
 
-<img src="../media/objetos-electronicos/ej_07_servo_ultrasonido2.jpg.jpg" width="500">
+<img src="../media/objetos-electronicos/ej_07_servo_ultrasonido2.jpg" width="500">
 
 [ejemplos/ej_07_servo_ultrasonido/](./ejemplos/ej_07_servo_ultrasonido/)
 
