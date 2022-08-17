@@ -18,3 +18,10 @@ Hoy aprenderemos:
 - [ejemplos/ej_08_datos_en_processing/](./ejemplos/ej_08_datos_en_processing/)
 
 ## uso e instalación de librerías
+
+
+## ejercicio 6: motor servo y entrada analógica (potenciómetro)
+
+## ejercicio 7: motor servo y entrada por pulsos (sensor de proximidad)
+
+## ejercicio 8: comunicación serial y lectura de datos en Processing
