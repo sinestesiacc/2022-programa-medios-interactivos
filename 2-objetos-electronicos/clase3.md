@@ -26,6 +26,9 @@ Hoy aprenderemos:
 
 [ejemplos/ej_06_servo_analogico/](./ejemplos/ej_06_servo_analogico/)
 
+## autonomía de prototipos electrónicos
+
+
 ## ejercicio 7: motor servo y entrada por pulsos (sensor de proximidad)
 
 <img src="../media/objetos-electronicos/ej_07_servo_ultrasonido.jpg" width="500">
