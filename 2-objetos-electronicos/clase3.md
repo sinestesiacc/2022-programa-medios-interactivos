@@ -1,6 +1,6 @@
 # clase 3
 
-Movimiento, comunicación y autonomía de protoripos
+Movimiento, comunicación y autonomía de prototipos
 
 Jueves 18 agosto 2022
 
