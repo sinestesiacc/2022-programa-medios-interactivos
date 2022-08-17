@@ -1,1 +1,20 @@
+# clase 3
 
+Movimiento, comunicación y autonomía de protoripos
+
+Jueves 18 agosto 2022
+
+Hoy aprenderemos:
+
+- Uso e instalación de librerías
+- Movimiento físico con motor servo
+- Autonomía de prototipos electrónicos
+- Comunicación serial con Processing
+
+## enlaces a ejemplos de esta clase
+
+- [ejemplos/ej_06_servo_analogico](./ejemplos/ej_06_servo_analogico/)
+- [ejemplos/ej_07_servo_ultrasonido/](./ejemplos/ej_07_servo_ultrasonido/)
+- [ejemplos/ej_08_datos_en_processing/](./ejemplos/ej_08_datos_en_processing/)
+
+## uso e instalación de librerías
