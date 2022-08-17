@@ -30,20 +30,20 @@ Permite variar tiempo de una señal digital con estado alto o bajo (5V o 0V) par
 
 <img src="../media/objetos-electronicos/pwm.jpg" width="700">
 
-## ejercicio 3: entrada y salida analógica (potenciómetro)
+## ejercicio 3: LED RGB y entrada digital (sensor de luz LDR)
 
 <img src="../media/objetos-electronicos/ej_03_rgb_digital_ldr.jpg" width="500">
 
 [ejemplos/ej_03_rgb_digital/](./ejemplos/ej_03_rgb_digital/)
 
 
-## ejercicio 4: entrada y salida analógica (potenciómetro)
+## ejercicio 4: LED RGB y entrada analógica (sensor de sonido)
 
 <img src="../media/objetos-electronicos/ej_04_rgb_analogico_sonido.jpg" width="500">
 
 [ejemplos/ej_04_rgb_analogico/](./ejemplos/ej_04_rgb_analogico/)
 
-## ejercicio 5: entrada y salida analógica (potenciómetro)
+## ejercicio 5: LED RGB y entrada por pulsos (Sensor de Proximidad por Ultrasonido)
 
 <img src="../media/objetos-electronicos/ej_05_rgb_ultrasonido.jpg" width="500">
 
