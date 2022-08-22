@@ -36,7 +36,7 @@ void loop() {
   distancia = datoSensor * 0.034 / 2; // calcular distancia en cm
   Serial.println(distancia); // ver informacion en monitor
 
-  if (distancia <= 50) {
+  if (distancia <= 40) {
     datoServo = 0; // asignar datos para servo
   }
 
