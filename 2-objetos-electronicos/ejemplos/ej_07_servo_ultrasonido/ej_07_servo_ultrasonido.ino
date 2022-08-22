@@ -13,7 +13,7 @@ int pinT = 13; // trigger en pin 13
 int pinE = 12; // echo en pin 12
 int datoSensor; // variable para almacenar datos de sensor
 int distancia; // distancia obtenida en cm
-int pinServo = 9; // servo en pin 9
+int pinServo = 3; // servo en pin 3
 int datoServo; // variable para escribir datos en servo
 
 void setup() {
@@ -36,11 +36,11 @@ void loop() {
   distancia = datoSensor * 0.034 / 2; // calcular distancia en cm
   Serial.println(distancia); // ver informacion en monitor
 
-  if (distancia <= 50) {
+  if (distancia <= 40) {
     datoServo = 0; // asignar datos para servo
   }
 
-  if (distancia >= 41) {
+  else if (distancia >= 41) {
     datoServo = 90; // asignar datos para servo
   }
 
