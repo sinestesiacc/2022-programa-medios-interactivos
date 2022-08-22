@@ -40,7 +40,7 @@ void loop() {
     datoServo = 0; // asignar datos para servo
   }
 
-  if (distancia >= 41) {
+  else if (distancia >= 41) {
     datoServo = 90; // asignar datos para servo
   }
 
