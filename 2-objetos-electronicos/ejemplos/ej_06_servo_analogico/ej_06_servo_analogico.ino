@@ -11,7 +11,7 @@ Servo servo; // crear objeto servo
 
 int pinSensor = A0; // sensor en pin A0
 int datoSensor; // variable para leer datos de sensor
-int pinServo = 9; // servo en pin 9
+int pinServo = 3; // servo en pin 3
 int datoServo; // variable para escribir datos en servo
 
 void setup() {
