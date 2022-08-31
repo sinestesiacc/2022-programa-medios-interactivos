@@ -4,6 +4,13 @@
 
 jueves 08 septiembre 2022
 
+hoy aprenderemos:
+
+- envolventes AR
+- envolventes ADSR
+
+## ejemplos de esta clase
+
 ## envolventes
 
 hasta el momento hemos visto cómo crear sonidos con osciladores y filtros, cuyos parámetros son estáticos o controlados por ratón o teclado.
@@ -12,7 +19,7 @@ ahora aprenderemos a crear trayectorias para esos parámetros, con envolventes.
 
 para empezar, estudiaremos la envolvente más clásica de sintetizadores, llamada ADSR por:
 
-- A: attack, ataque
+- A: attack, arribo
 - D: decay, decaimiento
 - S: sustain, sostenimiento
 - R: release, relajación
