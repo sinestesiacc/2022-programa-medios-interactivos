@@ -1,3 +1,12 @@
+// ej_XX_grabar_microfono
+// por montoyamoraga
+// para Academia Sinestesia
+// Programa de Medios Interactivos 2022
+// v0.0.1 septiembre 2022
+// hecho con Processing 4.0.1
+// ejemplo traducido y basado
+// de Sound => Noise => NoiseSpectrum
+
 import processing.sound.*;
 
 AudioSample muestra;

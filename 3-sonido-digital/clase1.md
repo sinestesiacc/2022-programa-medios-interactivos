@@ -18,6 +18,11 @@ hoy aprenderemos:
 - [ej_00_osciladores](./ejemplos/ej_00_osciladores)
 - [ej_01_osciladores_raton](./ejemplos/ej_01_osciladores_raton/)
 - [ej_02_osciladores_analizador](./ejemplos/ej_02_osciladores_analizador/)
+- [ej_03_ruido](./ejemplos/ej_03_ruido/)
+- [ej_04_ruido_filtro](./ejemplos/ej_04_ruido_filtro/)
+- [ej_05_microfono](./ejemplos/ej_05_microfono/)
+- [ej_06_cargar_samples](./ejemplos/ej_06_cargar_samples/)
+- [ej_07_velocidad_samples](./ejemplos/ej_07_velocidad_samples/)
 
 ## bibliotecas y lenguajes de sonido digital (15 min)
 
@@ -101,7 +106,7 @@ existen otros tipos de ruidos, como el ruido rosado o el ruido café, que veremo
 
 usaremos este sonido rico en frecuencias, como un gran cubo de piedra, y usaremos los filtros para recortar frecuencias de este sonido y sentir sus efectos en los sonidos.
 
-## definición de filtro y sabores de filtros
+## definición de filtro y sabores de filtros (15 min)
 
 los filtros son efectos, a los cuales ingresa audio y sale audio.
 

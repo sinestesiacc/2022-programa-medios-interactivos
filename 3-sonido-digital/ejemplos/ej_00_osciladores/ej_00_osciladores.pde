@@ -2,8 +2,8 @@
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa de Medios Interactivos 2022
-// v0.0.1 agosto 2022
-// hecho con Processing 4.0b9
+// v0.0.1 septiembre 2022
+// hecho con Processing 4.0.1
 // ejemplo traducido y basado
 // de Sound=> SineWave
 
