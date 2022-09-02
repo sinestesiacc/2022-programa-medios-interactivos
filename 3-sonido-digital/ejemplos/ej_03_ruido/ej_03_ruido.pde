@@ -59,7 +59,7 @@ void setup() {
 
 void draw() {
 
-  // fondo rojo
+  // fondo verde
   background(0, 255, 0);
 
   //analizar espectro de frecuencia
