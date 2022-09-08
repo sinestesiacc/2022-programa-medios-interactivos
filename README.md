@@ -10,7 +10,7 @@ Julio - Noviembre 20222
 - Aarón Montoya-Moraga - https://montoyamoraga.io/
 - Christian Oyarzún - https://error404.cl/
 
-Más información en https://www.sinestesia.cc/programamediosinteractivos
+Más información en https://www.sinestesia.cc/programamediosinteractivos, o en la versión almacenada de esa web en septiembre 2022: https://web.archive.org/web/20220908203953/https://www.sinestesia.cc/programamediosinteractivos
 
 ## Estructura del repositorio
 
