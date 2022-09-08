@@ -7,6 +7,10 @@
 - [clase3.md](clase3.md): jueves 28 julio 2022
 - [ejemplos/](ejemplos/): carpeta con los ejemplos de código.
 
+## Profesor
+
+Profesor: Aarón Montoya-Moraga
+
 ## Software
 
 Este módulo se imparte con el software Processing, disponible para descarga en https://processing.org/.
