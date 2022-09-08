@@ -5,7 +5,7 @@
 // v0.0.1 septiembre 2022
 // hecho con Processing 4.0.1
 // ejemplo traducido y basado
-// de Sound=> SineWave
+// de Sound=> Env => Envelopes
 
 // importar biblioteca Processing Sound
 import processing.sound.*;
@@ -20,13 +20,28 @@ SinOsc oscilador;
 // ademas de SinOsc existen otros tipos de osciladores:
 // Pulse, SawOsc, SqrOsc, TriOsc
 
-// variables para controlar la frecuencia
-float frecuencia = 440;
-float frecMin = 200;
-float frecMax = 700;
+// declarar instancia de envolvente
+Env envolvente;
 
-// variable para la amplitud
-float amplitud = 0.1;
+// variable para controlar la frecuencia
+float frecuencia = 110;
+
+// variables para la envolvente
+// tiempos en segundos
+float tiempoA = 3.0;
+float tiempoR = 0.5;
+// nivel entre 0.0 y 1.0
+float nivelS = 0.5;
+// en Processing tenemos que decidir la duracion de S
+float duracion = 2.0;
+
+// variable para decidir que tecla activa la envolvente
+char teclaPresionar = 'x';
+
+// variable para detectar entre tecla sin presionar,
+// tecla cuando se presiona, y tecla mientras se presiona
+boolean presionando = false;
+
 
 void setup() {
 
@@ -45,27 +60,29 @@ void setup() {
   // usar constructor de SinOsc
   oscilador = new SinOsc(this);
 
-  // calcular frecuencia aleatoria
-  frecuencia = random(frecMin, frecMax);
+  // usar constructor de Env
+  envolvente = new Env(this);
 
   // cambiar frecuencia del oscilador
   oscilador.freq(frecuencia);
-
-  // cambiar amplitud del oscilador
-  oscilador.amp(amplitud);
-
-  // reproducir oscilador
-  oscilador.play();
 }
 
 void draw() {
 
   // fondo negro
   background(0);
+}
 
-  // texto con la frecuencia del oscilador
-  text("frecuencia: " + frecuencia, width/2, 4*height/10);
+void keyPressed() {
+  if (key == teclaPresionar && !presionando) {
+    presionando = true;
+    oscilador.play();
+    envolvente.play(oscilador, tiempoA, duracion, nivelS, tiempoR);
+  }
+}
 
-  // texto con la amplitud del oscilador
-  text("amplitud: " + amplitud, width/2, 6*height/10);
+void keyReleased() {
+  if (key == teclaPresionar) {
+    presionando = false;
+  }
 }
