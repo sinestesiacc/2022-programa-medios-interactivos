@@ -70,7 +70,92 @@ usaremos como arquitectura de síntesis, un teclado que controla la frecuencia d
 
 el oscilador entra a un filtro, cuya frecuencia de corte está controlada por una envolvente AR y la salida del filtro está conectada a un VCA, cuya amplitud está controlada por una envolvente ASR.
 
-- envolventes ASR en Processing Sound con clase Env
-- envolventes AR en Processing a mano
-- ritmo en beats por minute
-- introducción a teoría musical
+## envolventes ASR en Processing Sound con clase Env
+
+Processing nos entrega una envolvente ASR que aprenderemos a usar.
+
+## envolventes AR en Processing a mano
+
+otra opción es pensar cómo crear una envolvente a mano, usando nuestra gestualidad, que por hoy será con presionar, mantener y soltar una tecla de nuestro teclado.
+
+## ritmo en beats por minute
+
+cuando ya definimos envolventes, podemos empezar a secuenciar eventos en Processing, por ejemplo haciendo que se repitan cada cierto tiempo.
+
+en música hablamos de beats por minuto.
+
+## introducción a teoría musical
+
+el teclado de un piano tiene 88 teclas.
+
+en computación almacenamos la información en bits, y cada bit adicional duplica la cantidad de información que podemos almacenar, así:
+
+- 01 bit => 0002 estados posibles
+- 02 bit => 0004 estados posibles
+- 03 bit => 0008 estados posibles
+- 04 bit => 0016 estados posibles
+- 05 bit => 0032 estados posibles
+- 06 bit => 0064 estados posibles
+- 07 bit => 0128 estados posibles
+- 08 bit => 0256 estados posibles
+- 09 bit => 0512 estados posibles
+- 10 bit => 1024 estados posibles
+
+vemos que si tenemos 88 teclas de un piano, que son 88 notas musicales, con 7 bits podemos contarlas, y nos sobran notas incluso.
+
+en música occidental, definimos que hay 12 notas musicales:
+
+| nombre nota solfeo | nombre nota inglés |
+| :----------------- | :----------------- |
+| do                 | C                  |
+| do sostenido       | C#                 |
+| re                 | D                  |
+| re sostenido       | D#                 |
+| mi                 | E                  |
+| fa                 | F                  |
+| fa sostenido       | F#                 |
+| sol                | G                  |
+| sol sostenido      | G#                 |
+| la                 | A                  |
+| la sostenido       | A#                 |
+| si                 | B                  |
+
+estas 12 notas están separadas una de otro por un semitono.
+
+de esas 12 notas, hay 7 notas con un nombre a secas, en este orden:
+
+- do
+- re
+- mi
+- fa
+- sol
+- la
+- si
+
+entre cada una de ellas, hay un espacio de un tono, con dos excepciones:
+
+- entre mi y fa, hay un semitono
+- entre si y do, hay un semitono
+
+entonces, entre estas notas hay una nota justo al medio:
+
+- entre do y re
+- entre re y mi
+- entre fa y sol
+- entre sol y la
+- entre la y si
+
+para nombrarlas, podemos usar:
+
+- sostenido (#): un semitono más arriba
+- bemol (b): un semitono más abajo
+
+y con eso queda:
+
+| descripción nota solfeo | nombre nota con sostenido | nombre nota con bemol |
+| :---------------------- | :------------------------ | --------------------- |
+| entre do y re           | do# o C#                  | reb o Db              |
+| entre re y mi           | re# o D#                  | mib o Eb              |
+| entre fa y sol          | fa# o F#                  | solb o Gb             |
+| entre sol y la          | sol# o G#                 | lab o Ab              |
+| entre la y si           | la# o A#                  | sib o Bb              |
