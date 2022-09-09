@@ -52,8 +52,6 @@ void setup() {
 
   oscilador.amp(1.0);
 
-
-
   envolvente = new Env(this);
   
   //actualizar tiempo inicial
@@ -79,18 +77,3 @@ void mousePressed() {
   oscilador.play();
   envolvente.play(oscilador, 0.1, 0.1, 0.5, 0.1);
 }
-
-//void keyPressed() {
-//  if (key == ' ' && teclaPresionada == false) {
-//    teclaPresionada = true;
-//    println("tecla espacio presionada");
-//  }
-//}
-
-//void keyReleased() {
-//  if (key == ' ') {
-//    tiempoInicioRelajo = millis();
-//    teclaPresionada = false;
-//    println("tecla espacio soltada");
-//  }
-//}
