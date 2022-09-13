@@ -15,6 +15,11 @@ hoy aprenderemos:
 ## ejemplos de esta clase
 
 - [ej_08_envolvente_asr/](./ejemplos/ej_08_envolvente_asr/)
+- [ej_09_envolvente_tecla/](./ejemplos/ej_09_envolvente_tecla/)
+- [ej_10_ritmo/](./ejemplos/ej_10_ritmo/)
+- [ej_11_ritmo_raton/](./ejemplos/ej_11_ritmo_raton/)
+- [ej_12_ritmo_samples/](./ejemplos/ej_12_ritmo_samples/)
+- [ej_13_notas/](./ejemplos/ej_13_notas/)
 
 ## teoría de envolventes AR y ASR
 
