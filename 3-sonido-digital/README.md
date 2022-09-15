@@ -17,6 +17,6 @@ Este módulo se imparte con el software Processing, disponible para descarga en 
 
 En septiembre 2022, usaremos la versión 4.0.1, o superior.
 
-## Bibligorafía
+## Bibliografía
 
 - https://processing.org/reference/libraries/sound/index.html: referencia de la biblioteca Sound para Processing.
