@@ -1,0 +1,11 @@
+#N canvas 73 370 450 300 12;
+#X obj 32 8 notein;
+#X floatatom 34 71 5 0 0 0 - - - 0;
+#X floatatom 51 50 5 0 0 0 - - - 0;
+#X floatatom 71 30 5 0 0 0 - - - 0;
+#X text 63 85 nota;
+#X text 91 57 velocidad;
+#X text 109 35 canal;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 0 2 3 0;
