@@ -22,6 +22,7 @@ hoy aprenderemos:
 - [ej_16_osc_enviar_y_recibir/](./ejemplos/ej_16_osc_enviar_y_recibir/)
 - [ej_17_osc_enviar/](./ejemplos/ej_17_osc_enviar/)
 - [ej_17_osc_recibir/](./ejemplos/ej_17_osc_recibir/)
+- [ej_18_osc_enviar_a_madmapper/](./ejemplos/ej_18_osc_enviar_a_madmapper/)
 
 ## instalación de bibliotecas
 
