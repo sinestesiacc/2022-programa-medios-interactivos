@@ -13,11 +13,15 @@ hoy aprenderemos:
 
 ## ejemplos de esta clase
 
-- []()
-- []()
-- []()
-- []()
-- []()
+- [ej_14_midi_enviar/](./ejemplos/ej_14_midi_enviar/)
+- [ej_14_midi_recibir/](./ejemplos/ej_14_midi_recibir/)
+- [ej_15_arduino_enviar_numero/](./ejemplos/ej_15_arduino_enviar_numero/)
+- [ej_15_processing_recibir_numero/](./ejemplos/ej_15_processing_recibir_numero/)
+- [ej_15_processing_recibir_numero_enviar_midi/](./ejemplos/ej_15_processing_recibir_numero_enviar_midi/)
+- [ej_15_pure_data_recibir_midi.pd](./ejemplos/ej_15_pure_data_recibir_midi.pd)
+- [ej_16_osc_enviar_y_recibir/](./ejemplos/ej_16_osc_enviar_y_recibir/)
+- [ej_17_osc_enviar/](./ejemplos/ej_17_osc_enviar/)
+- [ej_17_osc_recibir/](./ejemplos/ej_17_osc_recibir/)
 
 ## instalación de bibliotecas
 
@@ -25,6 +29,10 @@ en esta clase usaremos estas dos bibliotecas:
 
 - The MidiBus
 - oscp5
+
+las podemos instalar desde Processing -> Sketch -> Import Library -> Manage Libraries
+
+opcionalmente, también podemos instalar el software Pd desde https://puredata.info/
 
 ## implementación MIDI
 
@@ -122,3 +130,45 @@ en el computador o software que envía, tenemos que saber los siguientes paráme
 en el computador o software que recibe, lo que hacemos es abrir un puerto y poner atención a lo que recibimos, entonces solamente necesitamos:
 
 - puerto a abrir para recibir mensajes.
+
+## ventajas y desventajas de MIDI
+
+MIDI sobresale cuando:
+
+- estamos usando tecnología para sonido, por ejemplo lenguajes de programación para sonido, o hardware para sonido como sintetizadores o máquinas de ritmo
+- queremos enviar mensajes con una resolución de 128 valores posibles
+- queremos distribuir mensajes entre varios canales, hasta 16
+
+MIDI no es una buena opción si:
+
+- queremos una resolución de información mayor a 128 valores posibles
+- queremos crear ruteos más complejos que 16 canales distintos, por ejemplo, anidar mensajes con encabezados
+
+## ventajas y desventajas de OSC
+
+OSC sobresale cuando:
+
+- estamos usando tecnología de redes, con puertos abiertos y cerrados
+- queremos enviar mensajes entre computadores
+- queremos crear ruteos complejos de los mensajes enviados y recibidos
+- queremos enviar muchos mensajes al mismo tiempo, de distintos tipos y resoluciones
+
+OSC no es una buena opción si:
+
+- queremos hacer un proyecto con un sistema de mensajes simples y estándar
+- no queremos crear y definir un sistema de mensajería entre aplicaciones y/o computadores
+
+## estrategias MIDI
+
+- definir si usaremos mensajes de notas y/o mensajes de control
+- definir para qué usaremos cada uno de los canales
+
+## estrategias OSC
+
+- definir si los mensajes se envian y reciben en un mismo computador, en varios en la misma red local, o a través de internet
+- definir estructura de encabezados para enviar y recibir mensajes
+- documentar y diagramar encabezados usados, rangos de valores, tipos de valores (float, int, String, etc)
+
+## software adicional recomendado
+
+- https://hexler.net/touchosc
