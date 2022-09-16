@@ -1,4 +1,4 @@
-# clase1
+# clase3
 
 3.3 protocolos MIDI y OSC
 

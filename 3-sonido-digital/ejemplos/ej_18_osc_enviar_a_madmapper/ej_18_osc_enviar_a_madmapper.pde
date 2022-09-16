@@ -1,4 +1,4 @@
-// ej_17_osc_recibir
+// ej_18_osc_enviar_a_madmapper
 // por montoyamoraga
 // para Academia Sinestesia
 // Programa de Medios Interactivos 2022
@@ -48,7 +48,7 @@ void draw() {
 void mousePressed() {
   
   // crear un mensaje OSC con encabezado
-  // segun Madmapper -> click derecho -> copy value address 
+  // segun Madmapper -> click derecho -> copy OSC address
   OscMessage mensaje = new OscMessage("/surfaces/Quad-3/opacity");
  
   // agregar un numero segun raton a ese mensaje
