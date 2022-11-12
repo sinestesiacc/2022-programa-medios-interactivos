@@ -26,7 +26,7 @@ Hoy aprenderemos:
 
 Direcciones web:
 
-- Studio Sergio Mora-Diaz https://www.sergiomoradiaz.com/ 
+- Studio Sergio Mora-Diaz https://www.sergiomoradiaz.com/
 
 Organizaciones:
 
@@ -74,7 +74,7 @@ http://www.wch-ic.com/downloads/CH341SER_ZIP.html (Windows) o http://www.wch-ic.
 
 ## estructura de código
 
-Las funciones principales en Arduino IDE son setup() y draw(), acompañadas de una sessión inicial donde declaramos variables.
+Las funciones principales en Arduino IDE son setup() y loop(), acompañadas de una sessión inicial donde declaramos variables.
 
 ```arduino
 // declarar variables
@@ -90,6 +90,7 @@ void loop() {
   digitalWrite(pinLed, HIGH); // encender led
 }
 ```
+
 ## datos digitales y analógicos
 
 Datos digitales: valores de 1 o 0, dígito binario o bit (2 posibles valores)
@@ -101,10 +102,10 @@ Datos analógicos: rangos variables, Arduino procesa datos de 0 a 1023 (2^10)
 <img src="../media/objetos-electronicos/ej_02_entrada_salida_analogica_pot.jpg" width="500">
 
 [ejemplos/ej_02_entrada_salida_analogica/](./ejemplos/ej_02_entrada_salida_analogica/)
- 
+
 ## comunicación serial
 
-Información transmitida en dos direcciones  usando el puerto USB, un dato tras otro.
+Información transmitida en dos direcciones usando el puerto USB, un dato tras otro.
 
 ```arduino
 Serial.begin (9600); // iniciar comunicacion serial
@@ -125,7 +126,7 @@ analogWrite(pinLed, datoLed); // escribir datos analogicos
 
 ## condicionales
 
-La información contenida en las llaves se ejecuta sólo al cumplir la condición 
+La información contenida en las llaves se ejecuta sólo al cumplir la condición
 
 ```arduino
 if (datoLed <= 0) { // si el dato llega a 0
